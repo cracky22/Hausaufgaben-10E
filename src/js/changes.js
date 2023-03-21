@@ -1,5 +1,5 @@
 change1 ="Einige Bugs wurden behoben";
-change2 ="";
+change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";
 /*change5 ="";

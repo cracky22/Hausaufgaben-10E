@@ -12,7 +12,7 @@
     <script src="./src/js/syncContent.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
-    <meta http-equiv="Refresh" content="20; url='./changeLog.php?cOS-HW.js%20update%20-y'" />
+    <!--<meta http-equiv="Refresh" content="20; url='./changeLog.php?cOS-HW.js%20update%20-y'" />-->
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
     <title>Neuigkeiten</title>
 </head>
@@ -110,7 +110,7 @@
                             </div>
                         </div>
                         <br><br id="viewChanges">
-                        <div style="height: 665px!important;" class="demo-card-event mdl-card mdl-shadow--2dp">
+                        <div style="height: 255px!important;" class="demo-card-event mdl-card mdl-shadow--2dp">
                             <div class="mdl-card__title mdl-card--expand">
                                 <p class="changes">
                                     <br>
