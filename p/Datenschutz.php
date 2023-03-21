@@ -178,6 +178,7 @@
                                 <span class="mdl-switch__label">KI-Analyse trainieren&nbsp;&#129299;</span>
                             </label>
                         </button>
+                        <br>
                         <button type="button" class="cOS-analyticsmain btn-spacer" onclick="save_privacyMod()">
                             <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="privacyMod">
                                 <input type="checkbox" id="privacyMod" class="mdl-switch__input">&nbsp;
