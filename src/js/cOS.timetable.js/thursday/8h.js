@@ -1,0 +1,2 @@
+lesson = "";
+document.write(lesson);

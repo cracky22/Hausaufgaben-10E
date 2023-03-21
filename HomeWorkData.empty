@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de-De">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta http-equiv="Refresh" content="4.5; url='./HomeWorkData.html?syscmd=get+HomeWorkData'" />
+    <title>HomeWorkData</title>
+</head>
+<style>
+    p.system {
+        height: auto;
+        width: auto;
+        background-color: #ff0400;
+        border-radius: 6px;
+        }
+    p.cracky {
+        height: auto;
+        width: auto;
+        background-color: #5574a3;
+        border-radius: 6px;
+        }
+    p.hwdata {
+        height: auto;
+        width: auto;
+        background-color: #808080;
+        border-radius: 6px;
+    }
+</style>
+<body style="zoom: 110%;">
+    
+</body>
+</html>
+
+<!--
+//Messages from Backend-Users
+
+System Message
+<p class="system">System&#58;&nbsp;<strong>error</strong></p>
+
+cracky> Message
+<p class="cracky"><b>cracky></b>&nbsp;(⌐■_■)&#58;&nbsp;hi</p>
+-->
+ 

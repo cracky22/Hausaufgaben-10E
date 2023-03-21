@@ -1,0 +1,188 @@
+com.crackyOS.homework
+mapfile für autosk
+.
+├── ./analytics.php							Python Analyse
+├── ./calendar.php							Kalendar
+├── ./changeLog.php							Neuerungen nach Update
+├── ./clearHomeWorkData.sh						backend: clear homework list
+├── ./config								
+│   ├── ./config/browserconfig.xml
+│   ├── ./config/configFile.crackyOS
+│   ├── ./config/jsconfig.json
+│   ├── ./config/manifest.json
+│   └── ./config/manifest.webmanifest
+├── ./contact.php							Kontakt redirect Seite
+├── ./cOS-HomeWork.php							MainPage
+├── ./cOS-settings.php							Einstellungen
+├── ./HomeWorkData.empty						Empty -> when clear() != cp *.html *.empty
+├── ./HomeWorkData.old							Papierkorb (*.cOS)
+├── ./index.php								Vorschaltseite MainPage
+├── ./LICENSE								Apache2 Lizenz
+├── ./links.php								Links und Verknüpfungen Seite
+├── ./p									
+│   ├── ./p/Datenschutz.php						Datenschutz  -\
+										      				   | -> Impressum-Generator	
+│   └── ./p/Impressum.php						Impressum    -/
+├── ./README.md								GitHub Project information
+├── ./restoreHomeWorkData.sh						trash to hwd
+├── ./save.php								PHP backend - file saver
+├── ./settings.php							Einstellungen Vorschaltseite
+├── ./shell.php								Shell für backend tasks ausm frontend
+├── ./src	
+│   ├── ./src/css
+│   │   └── ./src/css/style.css						stylesheet
+│   ├── ./src/img							graphics
+│   │   ├── ./src/img/android-icon-144x144.png
+│   │   ├── ./src/img/android-icon-192x192.png
+│   │   ├── ./src/img/android-icon-36x36.png
+│   │   ├── ./src/img/android-icon-48x48.png
+│   │   ├── ./src/img/android-icon-72x72.png
+│   │   ├── ./src/img/android-icon-96x96.png
+│   │   ├── ./src/img/apple-icon-114x114.png
+│   │   ├── ./src/img/apple-icon-120x120.png
+│   │   ├── ./src/img/apple-icon-144x144.png
+│   │   ├── ./src/img/apple-icon-152x152.png
+│   │   ├── ./src/img/apple-icon-180x180.png
+│   │   ├── ./src/img/apple-icon-57x57.png
+│   │   ├── ./src/img/apple-icon-60x60.png
+│   │   ├── ./src/img/apple-icon-72x72.png
+│   │   ├── ./src/img/apple-icon-76x76.png
+│   │   ├── ./src/img/apple-icon.png
+│   │   ├── ./src/img/apple-icon-precomposed.png
+│   │   ├── ./src/img/delete.png
+│   │   ├── ./src/img/favicon-16x16.png
+│   │   ├── ./src/img/favicon-32x32.png
+│   │   ├── ./src/img/favicon-96x96.png
+│   │   ├── ./src/img/favicon.ico
+│   │   ├── ./src/img/homework-favicon1.png
+│   │   ├── ./src/img/homework-favicon2.png
+│   │   ├── ./src/img/icon-192x192.png
+│   │   ├── ./src/img/icon-256x256.png
+│   │   ├── ./src/img/icon-384x384.png
+│   │   ├── ./src/img/icon-512x512.png
+│   │   ├── ./src/img/loading-contact.gif
+│   │   ├── ./src/img/loading_cOS-HW.gif
+│   │   ├── ./src/img/loading-settings.gif
+│   │   ├── ./src/img/ms-icon-144x144.png
+│   │   ├── ./src/img/ms-icon-150x150.png
+│   │   ├── ./src/img/ms-icon-310x310.png
+│   │   ├── ./src/img/ms-icon-70x70.png
+│   │   ├── ./src/img/qr-share-homeworkOLD.png
+│   │   ├── ./src/img/qr-share-homework.png
+│   │   ├── ./src/img/send.png
+│   │   ├── ./src/img/share.png
+│   │   └── ./src/img/sync.png
+│   ├── ./src/js
+│   │   ├── ./src/js/changes.js						Changelog printer
+│   │   ├── ./src/js/cOS.calendar.js					
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event01	\
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event02   \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event03    \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event04     \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event05      \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event06       \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event07        \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event08         \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event09          \
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event10           \
+									 									  | -> com.crackyOS.calendar framework 
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event11           /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event12          /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event13         /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event14        /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event15       /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event16      /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event17     /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event18    /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event19   /
+│   │   │   ├── ./src/js/cOS.calendar.js/cOS-carlendar_event20  /
+│   │   │   ├── ./src/js/cOS.calendar.js/lastChange.js			last change date
+│   │   │   └── ./src/js/cOS.calendar.js/scool-event_mgr.service	school event api
+│   │   ├── ./src/js/cOS.timetable.js
+│   │   │   ├── ./src/js/cOS.timetable.js/friday
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/1b.js	
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/1h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/1lb.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/2b.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/2h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/3h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/4h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/5h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/6h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/friday/7h.js
+│   │   │   │   └── ./src/js/cOS.timetable.js/friday/8h.js
+│   │   │   ├── ./src/js/cOS.timetable.js/lastChange.js
+│   │   │   ├── ./src/js/cOS.timetable.js/monday
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/1b.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/1h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/1lb.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/2b.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/2h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/3h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/4h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/5h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/6h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/monday/7h.js
+│   │   │   │   └── ./src/js/cOS.timetable.js/monday/8h.js
+│   │   │   ├── ./src/js/cOS.timetable.js/thursday
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/1b.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/1h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/1lb.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/2b.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/2h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/3h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/4h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/5h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/6h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/thursday/7h.js
+│   │   │   │   └── ./src/js/cOS.timetable.js/thursday/8h.js
+│   │   │   ├── ./src/js/cOS.timetable.js/tuesday
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/1b.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/1h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/1lb.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/2b.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/2h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/3h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/4h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/5h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/6h.js
+│   │   │   │   ├── ./src/js/cOS.timetable.js/tuesday/7h.js
+│   │   │   │   └── ./src/js/cOS.timetable.js/tuesday/8h.js
+│   │   │   └── ./src/js/cOS.timetable.js/wednesday
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/1b.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/1h.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/1lb.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/2b.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/2h.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/3h.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/4h.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/5h.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/6h.js
+│   │   │       ├── ./src/js/cOS.timetable.js/wednesday/7h.js
+│   │   │       └── ./src/js/cOS.timetable.js/wednesday/8h.js
+│   │   ├── ./src/js/patchInfo.js					patch info for updates (changeLog.php)
+│   │   ├── ./src/js/script.js						mdl live server load dom config
+│   │   ├── ./src/js/syncContent.js				     \
+│   │   ├── ./src/js/sync.js					     | -> sync across plattforms (apple webkit, msdos, micrfw, android-sandbox)
+│   │   ├── ./src/js/syncLoader.js				     /
+│   │   ├── ./src/js/sysstat.js						check systemstatus -> most uptime
+│   │   └── ./src/js/version.js						version for println
+│   ├── ./src/LICENSE							Apache2 Lizenz
+│   ├── ./src/mdl
+│   │   ├── ./src/mdl/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2	 \
+│   │   ├── ./src/mdl/googleAPI-style.css			  		  \
+│   │   ├── ./src/mdl/mdl-script.js				  			   \
+								   							   |    -> google apis 
+│   │   ├── ./src/mdl/mdl-style.css				    		   /
+│   │   ├── ./src/mdl/srt-script.js				  			  /
+│   │   └── ./src/mdl/srt-style.css							 /
+│   ├── ./src/py
+│   │   ├── ./src/py/analitycs.py					Python analyse der Benutzer + andere session cookies
+│   │   └── ./src/py/version.py						version für evtl. Umstieg auf flask
+│   └── ./src/sh
+│       └── ./src/sh/sync.sh						shellskript sync für backend tasks im frontend
+├── ./timetable.php									Stundenplan
+├── ./version										git version
+└── ./wipeHomeWorkData.sh							destroy hwd
+
+37 directories, 143 files
