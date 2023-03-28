@@ -103,7 +103,7 @@
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
                         onclick="highPrivacy();">
-                        Hohen&nbsp;Datenschutz&nbsp;aktiviern
+                        Hohen&nbsp;Datenschutz&nbsp;aktivieren
                     </button>
                     <br>
                     <button

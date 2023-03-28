@@ -121,6 +121,8 @@
                                 push = 0;
                                 refresh = 1;
                                 breaker = document.print InnterHtml("br");
+                            
+                            locale_accept_from_http=true
                             >
                         </hwscript>
                     </hwframework>

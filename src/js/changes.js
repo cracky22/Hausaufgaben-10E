@@ -1,4 +1,4 @@
-change1 ="Einige Bugs wurden behoben";
+change1 ="Einige Fehler wurden behoben";
 change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";

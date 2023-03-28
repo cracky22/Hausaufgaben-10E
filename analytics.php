@@ -13,5 +13,14 @@
     <?php
             exec("/usr/bin/python3 ./src/py/analitycs.py");
     ?>
+
+    <cOSscript>
+        libexec=<analytics class="myProJ">
+            <script document.onload="getUsers();"></script>
+        </analytics>
+        for users in userArry {
+            __FUNCTION__ != __NAMESPACE__
+        }
+    </cOSscript>
 </body>
 </html>
