@@ -41,7 +41,7 @@
       </button>
 
       <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
-        <a style="color: black; text-decoration: none;" href="#register">
+        <a style="color: black; text-decoration: none;" href="./contact.php?comeFrom=login.php#register">
           <li class="mdl-menu__item">Registrieren <b>[Neuer Nutzer]</b></li>
         </a>
         <a style="color: black; text-decoration: none;" href="./HomeWorkData.html">
