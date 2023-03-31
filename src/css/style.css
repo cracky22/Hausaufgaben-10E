@@ -593,3 +593,8 @@ a.gotoNews {
     font-size: 18px;
     font-weight: 550;
 }
+
+
+div.php-script {
+    visibility: hidden!important;
+}
