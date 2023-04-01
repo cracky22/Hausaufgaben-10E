@@ -152,14 +152,14 @@ p.changes {
     transition: 3s;
     font-size: 19px;
     color: #e8eaf2;
-    font-family: rubikBeast;
+    font-family: rubikMarker;
 }
 
 
 p.info {
     transition: 2s;
     width: 318px;
-    font-family: pacifico;
+    font-family: CabinSketch;
     border-radius: 10px;
     border: 3px solid rgb(26, 148, 71);
 }
@@ -297,7 +297,7 @@ select.fach {
     width: 125px;
     height: 22px;
     color: white;
-    background-color: #4b6db0c8;
+    background-color: #6388d2c8;
     border: 2px solid #2b5099a8;
     border-radius: 4.5px;
 }
@@ -390,19 +390,30 @@ div.mdl-progress {
 }
 
 img.qr-share {
+    transition: 3s;
     height: 120px;
     width: 120px;
     margin-top: 40px;
     margin-left: 50px;
+    border-radius: 55px;
+    filter: blur(3px);
 }
 
 img.qr-share:hover {
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.205), 0 8px 10px 0 rgba(0, 0, 0, 0.288);
+    transition: 0.8s;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.442), 4px 8px 10px 0 rgba(0, 0, 0, 0.549);
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border-radius: 0px;
+    filter: none;
 }
 
 
 p.qr-text {
-    margin-left: 44px;
+    margin-left: 52px;
 }
 
 
@@ -554,7 +565,8 @@ a.mdl-contact {
 
 h4.cardtext {
     font-size: 35px;
-    font-family: ntr;
+    font-family: clean;
+                /*ntr*/
 }
 
 
@@ -562,7 +574,7 @@ p.cardtext {
     margin-top: 12px;
     font-size: 18px;
     color: #cdcece;
-    font-family: pacifico;
+    font-family: rubikMarker;
 }
 
 
@@ -600,4 +612,16 @@ a.gotoNews {
 
 div.php-script {
     visibility: hidden !important;
+}
+
+
+ul.mdl-menu--top-right {
+    text-align: right!important;
+    float: right!important;
+}
+
+
+p.under-menu {
+    text-align: right!important;
+    padding-right: 5px;
 }

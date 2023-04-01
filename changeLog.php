@@ -34,7 +34,7 @@
             <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">
+            <span class="mdl-layout-title" id="top-menu">
                 <b>Menü</b>&nbsp;-&nbsp;<small>Änderungen</small>
             </span>
             <nav class="mdl-navigation">
@@ -78,10 +78,19 @@
                 </a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
-                    href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img class="qr-share" src="./src/img/qr-share-homework.png">
-                <p class="qr-text">QR-Code zum teilen</p>
+                    href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
+                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.png">
+                    <p class="qr-text">
+                        Tippe für <b>QR-Code</b>
+                    </p>
                 </img>
+                <br>
+                <a class="mdl-navigation__link" title="nach oben"
+					href="#top-menu">
+					Nach oben&nbsp;&#9757;
+				</a>
+                <br><br><br><br><br><br>
+                <br id="qr-action">
             </nav>
         </div>
         <main class="mdl-layout__content">
@@ -126,16 +135,20 @@
                                     class="contact-featureAdd mdl-contact mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
                                     <b>Kontakt</b>&nbsp;zum&nbsp;Entwickler&nbsp;
                                 </a>
-                                
                             </div>
                         </div>
-                        <br><br id="viewChanges">
-                        <div style="height: 265px!important;" class="demo-card-event mdl-card mdl-shadow--2dp">
+                        <br>
+                        <br id="viewChanges">
+                        <div style="height: 265px!important;" 
+                        class="demo-card-event mdl-card mdl-shadow--2dp">
                             <div class="mdl-card__title mdl-card--expand">
                                 <p class="changes">
                                     <br>
-                                    Änderungen:<br>
-                                    <small><script src="./src/js/changes.js"></script></small>
+                                        Änderungen:
+                                    <br>
+                                    <small>
+                                        <script src="./src/js/changes.js"></script>
+                                    </small>
                                 </p>
                                 <br>
                             </div>

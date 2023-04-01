@@ -32,7 +32,9 @@
             <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Einstellungen</small></span>
+            <span class="mdl-layout-title" id="top-menu">
+                <b>Menü</b>&nbsp;-&nbsp;<small>Einstellungen</small>
+            </span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
                     href="./cOS-HomeWork.php?comeFrom=./cOS-settings.php">
@@ -70,12 +72,19 @@
                 </a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
-                    href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img class="qr-share" src="./src/img/qr-share-homework.png">
+                    href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
+                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.png">
                     <p class="qr-text">
-                        QR-Code zum teilen
+                        Tippe für <b>QR-Code</b>
                     </p>
                 </img>
+                <br>
+                <a class="mdl-navigation__link" title="nach oben"
+					href="#top-menu">
+					Nach oben&nbsp;&#9757;
+				</a>
+                <br><br><br><br><br><br>
+                <br id="qr-action">
             </nav>
         </div>
         <main class="mdl-layout__content">
