@@ -51,9 +51,13 @@
 				</a>
 				<a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
 					title="&copy;&nbsp;Martin&nbsp;Blieninger"
-					href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
+					href="#">
+					&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small>
+				</a>
 				<img class="qr-share" src="./src/img/qr-share-homework.png">
-				<p class="qr-text">QR-Code zum teilen</p>
+					<p class="qr-text">
+						QR-Code zum teilen
+					</p>
 				</img>
 			</nav>
 		</div>
@@ -61,7 +65,9 @@
 			<div class="page-content">
 				<div class="links">
 					<center>
-						<h4>Standard Links</h4>
+						<h4>
+							Standard Links
+						</h4>
 						
 						<button
 							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
@@ -100,7 +106,9 @@
 						</button>
 						<br>
 
-						<h4>Aktuelle Links</h4>
+						<h4>
+							Aktuelle Links
+						</h4>
 
 						<button
 							class="urlBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
@@ -108,7 +116,9 @@
 							Börsenspiel 9E - Aktien
 						</button>
 
-						<h4>Sonstige Links</h4>
+						<h4>
+							Sonstige Links
+						</h4>
 
 						<button class="rldBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="refresh()">
                             aktualisieren

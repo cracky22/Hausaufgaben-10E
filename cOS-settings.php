@@ -21,7 +21,9 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">Einstellungen</span>
+                <span class="mdl-layout-title">
+                    Einstellungen
+                </span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
 
@@ -33,19 +35,33 @@
             <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Einstellungen</small></span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
-                    href="./cOS-HomeWork.php?comeFrom=./cOS-settings.php">&#127968;&nbsp;Home</a>
+                    href="./cOS-HomeWork.php?comeFrom=./cOS-settings.php">
+                    &#127968;&nbsp;Home
+                </a>
                 <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
-                    href="./links.php?comeFrom=./settings.php">&#128279;&nbsp;Links</a>
+                    href="./links.php?comeFrom=./settings.php">
+                    &#128279;&nbsp;Links
+                </a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
-                    href="./calendar.php?comeFrom=./cOS-settings.php">&#128467;&nbsp;Termine</a>
+                    href="./calendar.php?comeFrom=./cOS-settings.php">
+                    &#128467;&nbsp;Termine
+                </a>
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
-                    href="./timetable.php?comeFrom=./cOS-settings.php">&#128198;&nbsp;Stundenplan</a>
+                    href="./timetable.php?comeFrom=./cOS-settings.php">
+                    &#128198;&nbsp;Stundenplan
+                </a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
-                    href="./p/Datenschutz.php?comeFrom=../cOS-settings.php">&#128272;&nbsp;Datenschutz</a>
+                    href="./p/Datenschutz.php?comeFrom=../cOS-settings.php">
+                    &#128272;&nbsp;Datenschutz
+                </a>
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
-                    href="./p/Impressum.php?comeFrom=../cOS-settings.php">&#128209;&nbsp;Impressum</a>
+                    href="./p/Impressum.php?comeFrom=../cOS-settings.php">
+                    &#128209;&nbsp;Impressum
+                </a>
                 <a class="mdl-navigation__link" title="E-Mail schreiben"
-                    href="./contact.php?comeFrom=./cOS-settings.php">&#128231;&nbsp;Kontakt</a>
+                    href="./contact.php?comeFrom=./cOS-settings.php">
+                    &#128231;&nbsp;Kontakt
+                </a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="./changeLog.php?comeFrom=./cOS-settings.php">
                     <p class="version">
@@ -56,14 +72,18 @@
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
                 <img class="qr-share" src="./src/img/qr-share-homework.png">
-                <p class="qr-text">QR-Code zum teilen</p>
+                    <p class="qr-text">
+                        QR-Code zum teilen
+                    </p>
                 </img>
             </nav>
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
                 <center>
-                    <h5>Allgemeine Einstellungen</h5>
+                    <h5>
+                        Allgemeine Einstellungen
+                    </h5>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
                         onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh'">
@@ -136,7 +156,11 @@
                 <center>
                     <div class="sysinfo">
                         <h6 class="header">
-                            <small><u>&emsp;Systeminformationen&emsp;</u></small>
+                            <small>
+                                <u>
+                                    &emsp;Systeminformationen&emsp;
+                                </u>
+                            </small>
                             <p>
                                 <small>
                                     <b>Server:</b>&nbsp;Raspberry&nbsp;Pi&nbsp;4B&nbsp;4GB&nbsp;DDR4&nbsp;RAM

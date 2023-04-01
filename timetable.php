@@ -13,14 +13,18 @@
     <link rel="manifest" href="./config/manifest.webmanifest">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
-    <title>Stundenplan</title>
+    <title>
+        Stundenplan
+    </title>
 </head>
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">Stundenplan&nbsp;<b>9E</b></span>
+                <span class="mdl-layout-title">
+                    Stundenplan&nbsp;<b>9E</b>
+                </span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
 
@@ -29,7 +33,9 @@
             <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Stundenplan</small></span>
+            <span class="mdl-layout-title">
+                <b>Menü</b>&nbsp;-&nbsp;<small>Stundenplan</small>
+            </span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
                     href="./cOS-HomeWork.php?comeFrom=./timetable.php">

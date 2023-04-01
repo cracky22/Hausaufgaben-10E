@@ -32,7 +32,9 @@
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation">
                     <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
+                        <i class="material-icons">
+                            more_vert
+                        </i>
                     </button>
                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
                         for="demo-menu-lower-right">
@@ -76,7 +78,9 @@
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small></span>
+            <span class="mdl-layout-title">
+                <b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small>
+            </span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
                     href="./links.php?comeFrom=./cOS-HomeWork.php">

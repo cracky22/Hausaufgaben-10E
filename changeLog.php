@@ -14,15 +14,17 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <!--<meta http-equiv="Refresh" content="20; url='./changeLog.php?cOS-HW.js%20update%20-y'" />-->
     <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
-    <title>Neuigkeiten</title>
+    <title>
+        Neuigkeiten
+    </title>
 </head>
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">&#128260;&nbsp;Update&nbsp;&#45;&nbsp;Neuigkeiten
-
+                <span class="mdl-layout-title">
+                    &#128260;&nbsp;Update&nbsp;&#45;&nbsp;Neuigkeiten
                 </span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
@@ -32,24 +34,42 @@
             <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Änderungen</small></span>
+            <span class="mdl-layout-title">
+                <b>Menü</b>&nbsp;-&nbsp;<small>Änderungen</small>
+            </span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
-                    href="./cOS-HomeWork.php?comeFrom=./changeLog.php">&#127968;&nbsp;Home</a>
+                    href="./cOS-HomeWork.php?comeFrom=./changeLog.php">
+                    &#127968;&nbsp;Home
+                </a>
                 <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
-                    href="./links.php?comeFrom=./changeLog.php">&#128279;&nbsp;Links</a>
+                    href="./links.php?comeFrom=./changeLog.php">
+                    &#128279;&nbsp;Links
+                </a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
-                    href="./calendar.php?comeFrom=./changelog.php">&#128467;&nbsp;Termine</a>
+                    href="./calendar.php?comeFrom=./changelog.php">
+                    &#128467;&nbsp;Termine
+                </a>
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
-                    href="./timetable.php?comeFrom=./changeLog.php">&#128198;&nbsp;Stundenplan</a>
+                    href="./timetable.php?comeFrom=./changeLog.php">
+                    &#128198;&nbsp;Stundenplan
+                </a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
-                    href="./p/Datenschutz.php?comeFrom=../changeLog.php">&#128272;&nbsp;Datenschutz</a>
+                    href="./p/Datenschutz.php?comeFrom=../changeLog.php">
+                    &#128272;&nbsp;Datenschutz
+                </a>
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
-                    href="./p/Impressum.php?comeFrom=../changeLog.php">&#128209;&nbsp;Impressum</a>
+                    href="./p/Impressum.php?comeFrom=../changeLog.php">
+                    &#128209;&nbsp;Impressum
+                </a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
-                    href="./settings.php?comeFrom=./changeLog.php">&#9881;&nbsp;Einstellungen</a>
+                    href="./settings.php?comeFrom=./changeLog.php">
+                    &#9881;&nbsp;Einstellungen
+                </a>
                 <a class="mdl-navigation__link" title="E-Mail schreiben"
-                    href="./contact.php?comeFrom=./changeLog.php">&#128231;&nbsp;Kontakt</a>
+                    href="./contact.php?comeFrom=./changeLog.php">
+                    &#128231;&nbsp;Kontakt
+                </a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="#dubleClick">
                     <p class="version">

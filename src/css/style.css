@@ -210,6 +210,7 @@ embed.hwdata {
         background-color: lightgray;
     }
 }
+
 @media (min-height: 980px) {
     embed.hwdata {
         height: 620px;
@@ -466,7 +467,7 @@ z {
 
 button.cOS-analyticsmain {
     background-color: #3080aed8;
-    width: 320px!important;
+    width: 320px !important;
     border: 2px solid #533286;
     border-radius: 10px;
 }
@@ -490,14 +491,16 @@ button.btn-spacer {
 }
 
 
-.demo-card-square > .mdl-card__title {
+.demo-card-square>.mdl-card__title {
     color: #164059;
-    font-size: 28px!important;
+    font-size: 28px !important;
     font-weight: 750;
     background-image:
-        url("../img/update-card.jpg")/* bottom right 1% no-repeat #46B6AC*/;
-        height: auto;
-        width: 320px;
+        url("../img/update-card.jpg")
+        /* bottom right 1% no-repeat #46B6AC*/
+    ;
+    height: auto;
+    width: 320px;
 }
 
 
@@ -507,60 +510,60 @@ button.btn-spacer {
     width: 320px;
     height: 310px;
     background: #3E4EB8;
-  }
-  
-  
-  .demo-card-event > .mdl-card__actions {
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  
-  .demo-card-event > .mdl-card__title {
-    align-items: flex-start;
-  }
-  
-  
-  .demo-card-event > .mdl-card__title > h4 {
-    margin-top: 0;
-  }
-  
-  
-  .demo-card-event > .mdl-card__actions {
-    display: flex;
-    box-sizing:border-box;
-    align-items: center;
-  }
-  
-  
-  .demo-card-event > .mdl-card__actions > .material-icons {
-    padding-right: 0px;
-  }
-  
-  
-  .demo-card-event > .mdl-card__title,
-  .demo-card-event > .mdl-card__actions,
-  .demo-card-event > .mdl-card__actions > .mdl-button {
-    color: #fff;
-  }
+}
 
-  
-  
-  a.mdl-contact {
-    width: 320px!important;
-  }
-  
-  h4.cardtext {
+
+.demo-card-event>.mdl-card__actions {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.demo-card-event>.mdl-card__title {
+    align-items: flex-start;
+}
+
+
+.demo-card-event>.mdl-card__title>h4 {
+    margin-top: 0;
+}
+
+
+.demo-card-event>.mdl-card__actions {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.demo-card-event>.mdl-card__actions>.material-icons {
+    padding-right: 0px;
+}
+
+
+.demo-card-event>.mdl-card__title,
+.demo-card-event>.mdl-card__actions,
+.demo-card-event>.mdl-card__actions>.mdl-button {
+    color: #fff;
+}
+
+
+
+a.mdl-contact {
+    width: 320px !important;
+}
+
+h4.cardtext {
     font-size: 35px;
     font-family: ntr;
-  }
+}
 
 
-  p.cardtext {
+p.cardtext {
     margin-top: 12px;
     font-size: 18px;
     color: #cdcece;
     font-family: pacifico;
-  }
+}
 
 
 button.contactBtn {
@@ -596,5 +599,5 @@ a.gotoNews {
 
 
 div.php-script {
-    visibility: hidden!important;
+    visibility: hidden !important;
 }

@@ -32,19 +32,33 @@
 			<span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Termine</small></span>
 			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
-					href="./cOS-HomeWork.php?comeFrom=./calendar.php">&#127968;&nbsp;Home</a>
+					href="./cOS-HomeWork.php?comeFrom=./calendar.php">
+					&#127968;&nbsp;Home
+				</a>
 				<a class="mdl-navigation__link" title="Links&nbsp;ansehen"
-					href="./links.php?comeFrom=./calendar.php">&#128279;&nbsp;Links</a>
+					href="./links.php?comeFrom=./calendar.php">
+					&#128279;&nbsp;Links
+				</a>
 				<a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
-					href="./timetable.php?comeFrom=./calendar.php">&#128198;&nbsp;Stundenplan</a>
+					href="./timetable.php?comeFrom=./calendar.php">
+					&#128198;&nbsp;Stundenplan
+				</a>
 				<a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
-					href="./p/Datenschutz.php?comeFrom=../calendar.php">&#128272;&nbsp;Datenschutz</a>
+					href="./p/Datenschutz.php?comeFrom=../calendar.php">
+					&#128272;&nbsp;Datenschutz
+				</a>
 				<a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
-					href="./p/Impressum.php?comeFrom=../calendar.php">&#128209;&nbsp;Impressum</a>
+					href="./p/Impressum.php?comeFrom=../calendar.php">
+					&#128209;&nbsp;Impressum
+				</a>
 				<a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
-					href="./settings.php?comeFrom=./calendar.php">&#9881;&nbsp;Einstellungen</a>
+					href="./settings.php?comeFrom=./calendar.php">
+					&#9881;&nbsp;Einstellungen
+				</a>
 				<a class="mdl-navigation__link" title="E-Mail schreiben"
-					href="./contact.php?comeFrom=./calendar.php">&#128231;&nbsp;Kontakt</a>
+					href="./contact.php?comeFrom=./calendar.php">
+					&#128231;&nbsp;Kontakt
+				</a>
 				<a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
 					href="./changeLog.php?comeFrom=./calendar.php">
 					<p class="version">
@@ -55,7 +69,9 @@
 					title="&copy;&nbsp;Martin&nbsp;Blieninger"
 					href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
 				<img class="qr-share" src="./src/img/qr-share-homework.png">
-				<p class="qr-text">QR-Code zum teilen</p>
+					<p class="qr-text">
+						QR-Code zum teilen
+					</p>
 				</img>
 			</nav>
 		</div>
@@ -65,60 +81,98 @@
 					<center>
 						<table border="1" cellpadding="1" cellspacing="1" style="width:284.333px">
 							<tbody>
-								<tr>
-									<td style="width:106px">&nbsp;17.03.2023</td>
-									<td style="width:167px"><span style="background-color:#d35400">&nbsp;<small>2. Physik
-											Stehgreifaufgabe</small></span></td>
+								<!--<tr>
+									<td style="width:106px">
+									&nbsp;17.03.2023
+								</td>
+								<td style="width:167px">
+									<span style="background-color:#d35400">
+										&nbsp;
+										<small>
+											2. Physik Stehgreifaufgabe
+										</small>
+									</span>
+								</td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;24.03.2023</td>
-									<td style="width:167px"><span style="background-color:#d35400">&nbsp;Deutsch
-											Debatte</span>
+									<td style="width:106px">
+									&nbsp;24.03.2023
+								</td>
+									<td style="width:167px">
+									<span style="background-color:#d35400">
+									&nbsp;Deutsch Debatte</span>
 									</td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;30.03.2023</td>
-									<td style="width:167px"><span style="background-color:#e74c3c">&nbsp;2. BwR
-											Kurzarbeit</span>
+									<td style="width:106px">
+									&nbsp;30.03.2023
+								</td>
+									<td style="width:167px">
+									<span style="background-color:#e74c3c">
+									&nbsp;2. BwR Kurzarbeit</span>
 									</td>
-								</tr>
+								</tr>-->
 								<tr>
-									<td style="width:106px">&nbsp;<small>03. - 14.04.2023</small></td>
+									<td style="width:106px">
+									&nbsp;<small>03. - 14.04.2023</small></td>
 									<td style="width:167px">&nbsp;Osterferien</td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;25.04.2023</td>
-									<td style="width:167px"><span style="background-color:#e67e22">&nbsp;4. Chemie
-											Modustest</span></td>
+									<td style="width:106px">
+									&nbsp;25.04.2023
+								</td>
+									<td style="width:167px">
+									<span style="background-color:#e67e22">
+									&nbsp;4. Chemie Modustest</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;27.04.2023</td>
-									<td style="width:167px"><span style="background-color:#e67e22">&nbsp;2. Geschichte
-									Kurzarbeit</span></td>
+									<td style="width:106px">
+									&nbsp;27.04.2023
+								</td>
+									<td style="width:167px">
+									<span style="background-color:#e67e22">
+									&nbsp;2. Geschichte Kurzarbeit</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;09.05.2023</td>
-									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;3. Deutsch
-											Schulaufgabe</span></td>
+									<td style="width:106px">
+									&nbsp;09.05.2023
+								</td>
+									<td style="width:167px">
+									<span style="background-color:#c0392b">
+									&nbsp;3. Deutsch Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;11.05.2023</td>
-									<td style="width:167px"><span style="background-color:#c0392b">&nbsp;3. BwR
-											Schulaufgabe</span></td>
+									<td style="width:106px">
+									&nbsp;11.05.2023
+								</td>
+									<td style="width:167px">
+									<span style="background-color:#c0392b">
+									&nbsp;3. BwR Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;25.05.2023</td>
-									<td style="width:167px">&nbsp;Dominik-Brunner Fest</td>
+									<td style="width:106px">
+									&nbsp;25.05.2023
+								</td>
+									<td style="width:167px">
+									&nbsp;Dominik-Brunner Fest</td>
+							
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;26.05.2023</td>
-									<td style="width:167px"><span style="background-color:#c0392b">3. Mathe
-											Schulaufgabe</span></td>
+									<td style="width:106px">
+									&nbsp;26.05.2023
+								</td>
+									<td style="width:167px">
+									<span style="background-color:#c0392b">
+									3. Mathe Schulaufgabe</span></td>
 								</tr>
 								<tr>
-									<td style="width:106px">&nbsp;29.05.2023</td>
-									<td style="width:167px">&nbsp;Pfingstferien</td>
+									<td style="width:106px">
+									&nbsp;29.05.2023
+								</td>
+									<td style="width:167px">
+									&nbsp;Pfingstferien</td>
 								</tr>
+
 							</tbody>
 						</table>
 						

@@ -13,35 +13,55 @@
 	<link rel="manifest" href="./config/manifest.webmanifest">
 	<link rel="stylesheet" href="./src/css/style.css">
 	<link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
-	<title>Hausaufgaben 9E</title>
+	<title>
+		Hausaufgaben 9E
+	</title>
 </head>
 
 <body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
-				<span class="maintitle mdl-layout-title">Hausaufgaben&nbsp;9E&nbsp;&#128218;</span>
+				<span class="maintitle mdl-layout-title">
+					Hausaufgaben&nbsp;9E&nbsp;&#128218;
+				</span>
 				<div class="mdl-layout-spacer"></div>
 				<nav class="mdl-navigation mdl-layout--large-screen-only"></nav>
 			</div>
 		</header>
 		<div class="mdl-layout__drawer">
-			<span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small></span>
+			<span class="mdl-layout-title">
+				<b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small>
+			</span>
 			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" title="Links&nbsp;ansehen"
-                    href="./links.php?comeFrom=./index.php">&#128279;&nbsp;Links</a>
+                    href="./links.php?comeFrom=./index.php">
+					&#128279;&nbsp;Links
+				</a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
-                    href="./calendar.php?comeFrom=./index.php">&#128467;&nbsp;Termine</a>
+                    href="./calendar.php?comeFrom=./index.php">
+					&#128467;&nbsp;Termine
+				</a>
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
-                    href="./timetable.php?comeFrom=./index.php">&#128198;&nbsp;Stundenplan</a>
+                    href="./timetable.php?comeFrom=./index.php">
+					&#128198;&nbsp;Stundenplan
+				</a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
-                    href="./p/Datenschutz.php?comeFrom=../index.php">&#128272;&nbsp;Datenschutz</a>
+                    href="./p/Datenschutz.php?comeFrom=../index.php">
+					&#128272;&nbsp;Datenschutz
+				</a>
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
-                    href="./p/Impressum.php?comeFrom=../index.php">&#128209;&nbsp;Impressum</a>
+                    href="./p/Impressum.php?comeFrom=../index.php">
+					&#128209;&nbsp;Impressum
+				</a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
-                    href="./settings.php?comeFrom=./index.php">&#9881;&nbsp;Einstellungen</a>
+                    href="./settings.php?comeFrom=./index.php">
+					&#9881;&nbsp;Einstellungen
+				</a>
                 <a class="mdl-navigation__link" title="E-Mail schreiben"
-                    href="./contact.php?comeFrom=./index.php">&#128231;&nbsp;Kontakt</a>
+                    href="./contact.php?comeFrom=./index.php">
+					&#128231;&nbsp;Kontakt
+				</a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="./changeLog.php?comeFrom=./index.php">
                     <p class="version">
@@ -52,7 +72,9 @@
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
                 <img class="qr-share" src="./src/img/qr-share-homework.png">
-                <p class="qr-text">QR-Code zum teilen</p>
+                	<p class="qr-text">
+						QR-Code zum teilen
+					</p>
                 </img>
 			</nav>
 		</div>

@@ -11,7 +11,9 @@
     <link rel="manifest" href="../config/manifest.webmanifest">
     <script src="../src/mdl/mdl-script.js"></script>
     <link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.png">
-    <title>Impressum</title>
+    <title>
+        Impressum
+    </title>
 </head>
 
 <style>
@@ -26,29 +28,47 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">Impressum</span>
+                <span class="mdl-layout-title">
+                    Impressum
+                </span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
                 </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"><b>Menü</b>&nbsp;-&nbsp;<small>Impressum</small></span>
+            <span class="mdl-layout-title">
+                <b>Menü</b>&nbsp;-&nbsp;<small>Impressum</small>
+            </span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Zurück&nbsp;gehen"
-                    href="../cOS-HomeWork.php?comeFrom=./p/Impressum.php">&#127968;&nbsp;Home</a>
+                    href="../cOS-HomeWork.php?comeFrom=./p/Impressum.php">
+                    &#127968;&nbsp;Home
+                </a>
                 <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
-                    href="../links.php?comeFrom=./p/Impressum.php">&#128279;&nbsp;Links</a>
+                    href="../links.php?comeFrom=./p/Impressum.php">
+                    &#128279;&nbsp;Links
+                </a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
-                    href="../calendar.php?comeFrom=./p/Impressum.php">&#128467;&nbsp;Termine</a>
+                    href="../calendar.php?comeFrom=./p/Impressum.php">
+                    &#128467;&nbsp;Termine
+                </a>
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
-                    href="../timetable.php?comeFrom=./p/Impressum.php">&#128198;&nbsp;Stundenplan</a>
+                    href="../timetable.php?comeFrom=./p/Impressum.php">
+                    &#128198;&nbsp;Stundenplan
+                </a>
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
-                    href="./Datenschutz.php?comeFrom=./Impressum.php">&#128272;&nbsp;Datenschutz</a>
+                    href="./Datenschutz.php?comeFrom=./Impressum.php">
+                    &#128272;&nbsp;Datenschutz
+                </a>
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
-                    href="../settings.php?comeFrom=./p/Impressum.php">&#9881;&nbsp;Einstellungen</a>
+                    href="../settings.php?comeFrom=./p/Impressum.php">
+                    &#9881;&nbsp;Einstellungen
+                </a>
                 <a class="mdl-navigation__link" title="E-Mail schreiben"
-                    href="../contact.php?comeFrom=./p/Impressum.php">&#128231;&nbsp;Kontakt</a>
+                    href="../contact.php?comeFrom=./p/Impressum.php">
+                    &#128231;&nbsp;Kontakt
+                </a>
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="../changeLog.php?comeFrom=./p/Impressum.php">
                     <p class="version">
@@ -59,13 +79,17 @@
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
                 <img class="qr-share" src="../src/img/qr-share-homework.png">
-                <p class="qr-text">QR-Code zum teilen</p>
+                    <p class="qr-text">
+                        QR-Code zum teilen
+                    </p>
                 </img>
             </nav>
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
-                <h3>Impressum</h3>
+                <h3>
+                    Impressum
+                </h3>
                 <p>Angaben gem&auml;&szlig; &sect; 5 TMG</p>
                 <p>Martin Blieninger | cracky&gt;<br />Wohnort (ausgeblendet)<br />85586 Poing</p>
                 <p><strong>Kontakt:</strong><br />Telefon: 015788293701</p>
