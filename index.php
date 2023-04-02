@@ -101,6 +101,18 @@
 								"errorReport",
 								"true"
 							);
+							localStorage.setItem(
+								"analytics",
+								"true"
+							);
+							localStorage.setItem(
+								"tracking",
+								"true"
+							);
+							localStorage.setItem(
+								"openAI",
+								"false"
+							);
                             
 							function refresh() {
                                 console.log("refresh page...");
