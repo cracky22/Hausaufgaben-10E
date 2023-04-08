@@ -466,6 +466,7 @@ z {
     color: rgb(67, 168, 67);
 }
 
+/*lenny iPhone SE (375x667px)*/
 
 @media (min-width: 350px) {
     img.sys-onload {
