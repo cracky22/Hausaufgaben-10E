@@ -1,4 +1,4 @@
-change1 ="Einige Fehler wurden behoben";
+change1 ="Dialog zur Bestätigung beim löschen der Liste";
 change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";

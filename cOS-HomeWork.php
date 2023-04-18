@@ -279,13 +279,44 @@
                                     value="senden" />
                                 <br>
                             </form>
-                            <div class="clearBtn">
+
+                            <!--<div class="clearBtn">
                                 <button
                                     class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                                     onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
                                     Hausaufgaben leeren
                                 </button>
+                            </div>-->
+
+                            <div class="clearBtn">
+                                <button
+                                    class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    type="button" onclick="window.location.href='#clearDialog'">
+                                    Hausaufgaben leeren
+                                </button>
                             </div>
+                            
+                            <div id="clearDialog" class="overlay">
+                                <div class="popup">
+                                    <h4>Liste leeren?</h4>
+                                    <a class="close" href="#">
+                                        &times;
+                                    </a>
+                                    <div class="content">
+                                        <button type="button" onclick="window.location.href='#closeDialoge';"
+                                        class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                            Nein
+                                        </button>
+                                        &emsp;
+                                        <button type="button" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';"
+                                        class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                            Ja
+                                        </button>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+
                         </center>
                             <p class="under-menu">
                                 <button onclick="window.location.href='#cookie-settings';" id="demo-menu-top-right" 
