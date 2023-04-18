@@ -139,7 +139,7 @@
                         </div>
                         <br>
                         <br id="viewChanges">
-                        <div style="height: 265px!important;" 
+                        <div style="height: 290px!important;" 
                         class="demo-card-event mdl-card mdl-shadow--2dp">
                             <div class="mdl-card__title mdl-card--expand">
                                 <p class="changes">

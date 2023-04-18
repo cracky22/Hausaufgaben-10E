@@ -279,15 +279,7 @@
                                     value="senden" />
                                 <br>
                             </form>
-
-                            <!--<div class="clearBtn">
-                                <button
-                                    class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                    onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
-                                    Hausaufgaben leeren
-                                </button>
-                            </div>-->
-
+                            
                             <div class="clearBtn">
                                 <button
                                     class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
@@ -295,11 +287,11 @@
                                     Hausaufgaben leeren
                                 </button>
                             </div>
-                            
+
                             <div id="clearDialog" class="overlay">
                                 <div class="popup">
                                     <h4>Liste leeren?</h4>
-                                    <a class="close" href="#">
+                                    <a class="close" href="#closeDialoge">
                                         &times;
                                     </a>
                                     <div class="content">
@@ -316,11 +308,10 @@
                                     </div>
                                 </div>
                             </div>
-
                         </center>
                             <p class="under-menu">
                                 <button onclick="window.location.href='#cookie-settings';" id="demo-menu-top-right" 
-                                class="mdl-button mdl-js-button mdl-button--icon">
+                                class="privacy-menu mdl-button mdl-js-button mdl-button--icon">
                                     <i class="material-icons">
                                         security
                                     </i>

@@ -496,7 +496,24 @@ button.btn-spacer {
 }
 
 
-/**/
+button.privacy-menu {
+    background-color: rgba(168, 168, 168, 0.443);
+    border: 1.6px solid rgba(168, 168, 168, 0.443);
+    transition: 0.8s;
+    height: 35px;
+    width: 35px;
+}
+
+button.privacy-menu:hover {
+    background-color: rgba(127, 127, 127, 0.653);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.448), 0 6px 8px 0 rgba(0, 0, 0, 0.448);
+    border: 1.6px solid #06d85e;
+    transition: 0.2s;    
+    height: 35px;
+    width: 35px;
+}
+
+
 .demo-card-square.mdl-card {
     width: 320px;
     height: 360px;
@@ -658,13 +675,14 @@ p.under-menu {
   }
   
   .popup {
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
+    margin: 82px auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 2px solid rgba(191, 131, 131, 0.911);
+    border-radius: 15px;
     width: 30%;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 5.5s ease-in-out;
   }
   
   .popup h4 {
