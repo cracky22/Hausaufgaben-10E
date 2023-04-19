@@ -101,19 +101,19 @@
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh'">
+                        onclick="window.location.href='#clearDialog'">
                         Hausaufgaben leeren (Papierkorb)
                     </button>
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='./shell.php?cmd=bash+wipeHomeWorkData.sh'">
+                        onclick="window.location.href='#wipeDialog'">
                         Hausaufgaben&nbsp;löschen
                     </button>
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh'">
+                        onclick="window.location.href='#restoreDialog'">
                         <small>Hausaufgaben&nbsp;wiederherstellen</small>
                     </button>
                     <br>
@@ -131,19 +131,19 @@
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="highPrivacy();">
+                        onclick="window.location.href='#highPrivacyDialog';">
                         Hohen&nbsp;Datenschutz&nbsp;aktivieren
                     </button>
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="enableDebugMod()">
+                        onclick="window.location.href='#debugModDialog';">
                         Debug&nbsp;Modus&nbsp;Aktivieren&nbsp;(10M)
                     </button>
                     <br>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="clearCache();">
+                        onclick="window.location.href='#clearCacheDialog';">
                         Cache&nbsp;leeren&nbsp;(localStorage)
                     </button>
                     <br>
@@ -181,6 +181,126 @@
                             </p>
                         </h6>
                     </div>
+                    <div id="clearDialog" class="overlay">
+                        <div class="popup">
+                            <h4>Liste leeren?</h4>
+                            <a class="close" href="#closeDialoge">
+                                &times;
+                            </a>
+                            <div class="content">
+                                <button type="button" onclick="window.location.href='#closeDialoge';"
+                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Nein
+                                </button>
+                                &emsp;
+                                <button type="button" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';"
+                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Ja
+                                </button>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="wipeDialog" class="overlay">
+                        <div class="popup">
+                            <h4>Liste löschen?</h4>
+                            <a class="close" href="#closeDialoge">
+                                &times;
+                            </a>
+                            <div class="content">
+                                <button type="button" onclick="window.location.href='#closeDialoge';"
+                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Nein
+                                </button>
+                                &emsp;
+                                <button type="button" onclick="window.location.href='./shell.php?cmd=bash+wipeHomeWorkData.sh';"
+                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Ja
+                                </button>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="restoreDialog" class="overlay">
+                        <div class="popup">
+                            <h4>Gelöschte Liste wiederherstellen?</h4>
+                            <a class="close" href="#closeDialoge">
+                                &times;
+                            </a>
+                            <div class="content">
+                                <button type="button" onclick="window.location.href='#closeDialoge';"
+                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Nein
+                                </button>
+                                &emsp;
+                                <button type="button" onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh';"
+                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Ja
+                                </button>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="highPrivacyDialog" class="overlay">
+                        <div class="popup">
+                            <h4>Hohen Datenschutz aktivieren?</h4>
+                            <a class="close" href="#closeDialoge">
+                                &times;
+                            </a>
+                            <div class="content">
+                                <button type="button" onclick="window.location.href='#closeDialoge';"
+                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Nein
+                                </button>
+                                &emsp;
+                                <button type="button" onclick="highPrivacy();"
+                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Ja
+                                </button>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="debugModDialog" class="overlay">
+                        <div class="popup">
+                            <h4>Debugging aktivieren [10M] ?</h4>
+                            <a class="close" href="#closeDialoge">
+                                &times;
+                            </a>
+                            <div class="content">
+                                <button type="button" onclick="window.location.href='#closeDialoge';"
+                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Nein
+                                </button>
+                                &emsp;
+                                <button type="button" onclick="enableDebugMod();"
+                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Ja
+                                </button>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="clearCacheDialog" class="overlay">
+                        <div class="popup">
+                            <h4>Cache / <i>localstorage</i> leeren?</h4>
+                            <a class="close" href="#closeDialoge">
+                                &times;
+                            </a>
+                            <div class="content">
+                                <button type="button" onclick="window.location.href='#closeDialoge';"
+                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Nein
+                                </button>
+                                &emsp;
+                                <button type="button" onclick="clearCache();"
+                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    Ja
+                                </button>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
                 </center>
                 <br>
                 <script>
@@ -208,6 +328,7 @@
                             "hightPrivacyMode",
                             "true"
                         );
+                        window.location.href='#closeDialog';
                     }
 
                     function enableDebugMod() {
@@ -248,12 +369,14 @@
                             "expireAfter",
                             "10m"
                         );
+                        window.location.href='#closeDialog';
                     }
 
                     function clearCache() {
                         console.log("clear localStorage");
                         document.cookie = "scmd=clearCache";
                         localStorage.clear();
+                        location.reload();
                     }
 
                     function refresh() {
