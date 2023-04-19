@@ -514,6 +514,58 @@ button.privacy-menu:hover {
 }
 
 
+@keyframes flickerAnimation {
+    75%  { opacity:0.7; }
+    25%   { opacity:0.5; }
+    75%  { opacity:0.7; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    75%  { opacity:0.7; }
+    25%   { opacity:0.5; }
+    75%  { opacity:0.7; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    75%  { opacity:0.7; }
+    25%   { opacity:0.5; }
+    75%  { opacity:0.7; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    75%  { opacity:0.7; }
+    25%   { opacity:0.5; }
+    75%  { opacity:0.7; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation 4.5s infinite;
+     -moz-animation: flickerAnimation 4.5s infinite;
+     -o-animation: flickerAnimation 4.5s infinite;
+      animation: flickerAnimation 4.5s infinite;
+  }
+  
+
+button.goto-top {
+    background-color: rgba(168, 168, 168, 0.073);
+    border: 1.6px solid rgba(168, 168, 168, 0.21);
+    transition: 0.48s;
+    opacity: 0.2;
+    height: 35px;
+    width: 35px;
+}
+
+button.goto-top:hover {
+    background-color: rgba(92, 91, 91, 0.251);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.208), 0 3px 4px 0 rgba(0, 0, 0, 0.295);
+    border: 1.6px solid #010101;
+    border-radius: 20px; 
+    transition: 0.26s;
+    height: 35px;
+    width: 75px;
+}
+
+  
 .demo-card-square.mdl-card {
     width: 320px;
     height: 360px;

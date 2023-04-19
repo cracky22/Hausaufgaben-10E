@@ -162,7 +162,8 @@
                         </hwscript>
                     </hwframework>
                 </div>
-                <div class="homeworkApplication"><br>
+                <div id="top" class="homeworkApplication">
+                    <br>
                     <center>
                         <form action="save.php" method="POST">
                             <div class="container">
@@ -311,7 +312,7 @@
                         </center>
                             <p class="under-menu">
                                 <button onclick="window.location.href='#cookie-settings';" id="demo-menu-top-right" 
-                                class="privacy-menu mdl-button mdl-js-button mdl-button--icon">
+                                class="privacy-menu  animate-flicker mdl-button mdl-js-button mdl-button--icon">
                                     <i class="material-icons">
                                         security
                                     </i>
@@ -361,10 +362,28 @@
                                 </li>
                             </ul>
                             </p>
+                            <center>
+                                <button onclick="set_top();" id="demo-menu-top-right" 
+                                    class="goto-top mdl-button mdl-js-button mdl-button--icon">
+                                        <i class="material-icons">
+                                            adjust
+                                        </i>
+                                </button>
+                            </center>
                             <script>
                                 function refresh() {
                                     console.log("refresh page...");
                                     location.reload();
+                                }
+                                
+                                async function set_top() {
+                                    console.log('go to top');
+                                    await new Promise(resolve => setTimeout(resolve, 230));
+                                    goto_top();
+                                }
+
+                                function goto_top() {
+                                    window.location.href='#top';
                                 }
 
                                 function save_analytics() {

@@ -1,4 +1,4 @@
-change1 ="Einstellungen wurden mit Dialogen ausgestattet";
+change1 ="Kleine Design-Veränderungen";
 change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";
