@@ -1,4 +1,4 @@
-change1 ="Kleine Design-Veränderungen";
+change1 ="Hinzugefügt: Button für BETA Version";
 change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";

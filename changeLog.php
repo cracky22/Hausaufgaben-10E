@@ -164,7 +164,13 @@
                             onclick="refresh()">
                             aktualisieren
                         </button>
-                        <br>
+                        <br><br>
+                        <button
+                            class="rldeBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+                            onclick="go_to_beta()">
+                            BETA Version testen
+                        </button>
+                        <br><br>
                         <button
                             class="rldeBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
                             onclick="dwnldAapl()">
@@ -197,6 +203,9 @@
                                 sessionStorage.clear();
                                 localStorage.clear();
                                 location.reload();
+                            }
+                            function go_to_beta() {
+                                window.location.href = "http://cracky.ddns.net/services/beta/com.crackyOS.homework/versions.html";
                             }
                             function dwnldAapl() {
                                 location.reload();
