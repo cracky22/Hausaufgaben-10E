@@ -1,4 +1,4 @@
-change1 ="Hinzugefügt: Button für BETA Version";
+change1 ="Security Update: PHP Input Fix";
 change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";
