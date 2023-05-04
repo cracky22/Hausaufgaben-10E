@@ -1,4 +1,4 @@
-change1 ="Security Update: PHP Input Fix";
+change1 ="Bugfix Update: Automatische Synchronisierung";
 change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";

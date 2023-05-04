@@ -40,8 +40,7 @@
                     href="./cOS-HomeWork.php?comeFrom=./cOS-settings.php">
                     &#127968;&nbsp;Home
                 </a>
-                <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
-                    href="./links.php?comeFrom=./settings.php">
+                <a class="mdl-navigation__link" title="Links&nbsp;ansehen" href="./links.php?comeFrom=./settings.php">
                     &#128279;&nbsp;Links
                 </a>
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
@@ -73,16 +72,16 @@
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.png">
-                    <p class="qr-text">
-                        Tippe für <b>QR-Code</b>
-                    </p>
+                <img onclick="window.location.href='#qr-action';" class="qr-share"
+                    src="./src/img/qr-share-homework.png">
+                <p class="qr-text">
+                    Tippe für <b>QR-Code</b>
+                </p>
                 </img>
                 <br>
-                <a class="mdl-navigation__link" title="nach oben"
-					href="#top-menu">
-					Nach oben&nbsp;&#9757;
-				</a>
+                <a class="mdl-navigation__link" title="nach oben" href="#top-menu">
+                    Nach oben&nbsp;&#9757;
+                </a>
                 <br><br><br><br><br><br>
                 <br id="qr-action">
             </nav>
@@ -97,6 +96,13 @@
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
                         onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh'">
                         Hausaufgaben Synchronisieren
+                    </button>
+                    <br>
+                    <button type="button" class="cOS-auto_sync btn-spacer" onclick="save_auto_sync()">
+                        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="auto_sync">
+                            <input type="checkbox" id="auto_sync" class="mdl-switch__input">&nbsp;
+                            <span class="mdl-switch__label">Auto&nbsp;Synchronisierung</span>
+                        </label>
                     </button>
                     <br>
                     <button
@@ -189,12 +195,13 @@
                             </a>
                             <div class="content">
                                 <button type="button" onclick="window.location.href='#closeDialoge';"
-                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Nein
                                 </button>
                                 &emsp;
-                                <button type="button" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';"
-                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                <button type="button"
+                                    onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';"
+                                    class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Ja
                                 </button>
                                 <br><br>
@@ -209,12 +216,13 @@
                             </a>
                             <div class="content">
                                 <button type="button" onclick="window.location.href='#closeDialoge';"
-                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Nein
                                 </button>
                                 &emsp;
-                                <button type="button" onclick="window.location.href='./shell.php?cmd=bash+wipeHomeWorkData.sh';"
-                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                <button type="button"
+                                    onclick="window.location.href='./shell.php?cmd=bash+wipeHomeWorkData.sh';"
+                                    class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Ja
                                 </button>
                                 <br><br>
@@ -229,12 +237,13 @@
                             </a>
                             <div class="content">
                                 <button type="button" onclick="window.location.href='#closeDialoge';"
-                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Nein
                                 </button>
                                 &emsp;
-                                <button type="button" onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh';"
-                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                <button type="button"
+                                    onclick="window.location.href='./shell.php?cmd=bash+restoreHomeWorkData.sh';"
+                                    class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Ja
                                 </button>
                                 <br><br>
@@ -249,12 +258,12 @@
                             </a>
                             <div class="content">
                                 <button type="button" onclick="window.location.href='#closeDialoge';"
-                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Nein
                                 </button>
                                 &emsp;
                                 <button type="button" onclick="highPrivacy();"
-                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Ja
                                 </button>
                                 <br><br>
@@ -269,12 +278,12 @@
                             </a>
                             <div class="content">
                                 <button type="button" onclick="window.location.href='#closeDialoge';"
-                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Nein
                                 </button>
                                 &emsp;
                                 <button type="button" onclick="enableDebugMod();"
-                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Ja
                                 </button>
                                 <br><br>
@@ -289,12 +298,12 @@
                             </a>
                             <div class="content">
                                 <button type="button" onclick="window.location.href='#closeDialoge';"
-                                class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Nein
                                 </button>
                                 &emsp;
                                 <button type="button" onclick="clearCache();"
-                                class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                    class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                     Ja
                                 </button>
                                 <br><br>
@@ -304,6 +313,14 @@
                 </center>
                 <br>
                 <script>
+                    var checked = JSON.parse(localStorage.getItem("auto_sync"));
+                    document.getElementById("auto_sync").checked = checked;
+                    function save_auto_sync() {
+                        var checkbox = document.getElementById("auto_sync");
+                        localStorage.setItem("auto_sync", checkbox.checked);
+                        document.cookie = "analytics=saveStd";
+                        //location.reload();
+                    }
                     document.cookie = "user=toggle.setting";
                     function highPrivacy() {
                         localStorage.clear();
@@ -328,7 +345,7 @@
                             "hightPrivacyMode",
                             "true"
                         );
-                        window.location.href='#closeDialog';
+                        window.location.href = '#closeDialog';
                     }
 
                     function enableDebugMod() {
@@ -369,7 +386,7 @@
                             "expireAfter",
                             "10m"
                         );
-                        window.location.href='#closeDialog';
+                        window.location.href = '#closeDialog';
                     }
 
                     function clearCache() {

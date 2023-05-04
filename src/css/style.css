@@ -476,6 +476,14 @@ z {
     }
 }
 
+button.cOS-auto_sync {
+    background-color: rgb(95, 143, 219);
+    color: white;
+    height: 35px;
+    width: 300px !important;
+    border: none;
+    border-radius: 3px;
+}
 
 button.cOS-analyticsmain {
     background-color: #3080aed8;

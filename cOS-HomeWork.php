@@ -326,6 +326,16 @@
                                     </a>
                                 </li>
                                 <li class="mdl-menu__item">
+                                    <button type="button" class="cOS-analytics" onclick="save_auto_sync()">
+                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="auto_sync">
+                                            <input type="checkbox" id="auto_sync" class="mdl-checkbox__input" checked>
+                                            <span class="mdl-checkbox__label">
+                                                Auto Sync&nbsp;&#128260;&emsp;&emsp;&emsp;&emsp;
+                                            </span>
+                                        </label>
+                                    </button>
+                                </li>
+                                <li class="mdl-menu__item">
                                     <button type="button" class="cOS-analytics" onclick="save_analytics()">
                                         <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="analytics">
                                             <input type="checkbox" id="analytics" class="mdl-checkbox__input" checked>
@@ -382,9 +392,20 @@
                                     goto_top();
                                 }
 
+                                //localStorage.setItem("auto_sync", "true")
+
                                 function goto_top() {
                                     window.location.href='#top';
                                 }
+
+                                function save_auto_sync() {
+                                    var checkbox = document.getElementById("auto_sync");
+                                    localStorage.setItem("auto_sync", checkbox.checked); analytics
+                                    document.cookie = ("auto_sync", checkbox.checked);
+                                    //location.reload();
+                                }
+                                var checked = JSON.parse(localStorage.getItem("auto_sync"));
+                                document.getElementById("auto_sync").checked = checked;
 
                                 function save_analytics() {
                                     var checkbox = document.getElementById("analytics");
@@ -397,7 +418,6 @@
 
                                 localStorage.setItem("__name__", "__main__")
                                 document.cookie = "onload=true";
-
 
                                 function save_tracking() {
                                     var checkbox = document.getElementById("tracking");

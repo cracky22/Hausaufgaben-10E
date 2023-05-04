@@ -97,6 +97,10 @@
 					<div class="mdl-spinner mdl-js-spinner is-active"></div>
 				</center>
                         <script>
+							localStorage.setItem(
+								"auto_sync",
+								"true"
+							);
     					    localStorage.setItem(
 								"errorReport",
 								"true"
