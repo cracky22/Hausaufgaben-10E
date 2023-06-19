@@ -1,4 +1,4 @@
-change1 ="Bugfix Update: Automatische Synchronisierung";
+change1 ="Systemrelevantes Update";
 change2 ="Vorbereitung auf Version 5.0.0";
 change3 ="";
 change4 ="";

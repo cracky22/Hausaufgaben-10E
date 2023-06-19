@@ -123,63 +123,10 @@
 								</tr>-->
 								<tr>
 									<td style="width:106px">
-									&nbsp;<small>03. - 14.04.2023</small></td>
-									<td style="width:167px">&nbsp;Osterferien</td>
-								</tr>
-								<tr>
-									<td style="width:106px">
-									&nbsp;25.04.2023
+									&nbsp;20.06.2023
 								</td>
 									<td style="width:167px">
-									<span style="background-color:#e67e22">
-									&nbsp;4. Chemie Modustest</span></td>
-								</tr>
-								<tr>
-									<td style="width:106px">
-									&nbsp;27.04.2023
-								</td>
-									<td style="width:167px">
-									<span style="background-color:#e67e22">
-									&nbsp;2. Geschichte Kurzarbeit</span></td>
-								</tr>
-								<tr>
-									<td style="width:106px">
-									&nbsp;09.05.2023
-								</td>
-									<td style="width:167px">
-									<span style="background-color:#c0392b">
-									&nbsp;3. Deutsch Schulaufgabe</span></td>
-								</tr>
-								<tr>
-									<td style="width:106px">
-									&nbsp;11.05.2023
-								</td>
-									<td style="width:167px">
-									<span style="background-color:#c0392b">
-									&nbsp;3. BwR Schulaufgabe</span></td>
-								</tr>
-								<tr>
-									<td style="width:106px">
-									&nbsp;25.05.2023
-								</td>
-									<td style="width:167px">
-									&nbsp;Dominik-Brunner Fest</td>
-							
-								</tr>
-								<tr>
-									<td style="width:106px">
-									&nbsp;26.05.2023
-								</td>
-									<td style="width:167px">
-									<span style="background-color:#c0392b">
-									3. Mathe Schulaufgabe</span></td>
-								</tr>
-								<tr>
-									<td style="width:106px">
-									&nbsp;29.05.2023
-								</td>
-									<td style="width:167px">
-									&nbsp;Pfingstferien</td>
+									&nbsp;Projektwochen</td>
 								</tr>
 
 							</tbody>
