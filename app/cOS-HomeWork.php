@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/mdl/googleAPI-style.css">
-    <link rel="stylesheet" href="./src/mdl/mdl-style.css">
-    <script src="./src/mdl/mdl-script.js"></script>
-    <script src="./src/js/script.js"></script>
-    <script src="./src/js/sync.js"></script>
-    <script src="./src/js/syncLoader.js"></script>
+    <link rel="stylesheet" href="../src/mdl/googleAPI-style.css">
+    <link rel="stylesheet" href="../src/mdl/mdl-style.css">
+    <script src="../src/mdl/mdl-script.js"></script>
+    <script src="../src/js/script.js"></script>
+    <script src="../src/js/sync.js"></script>
+    <script src="../src/js/syncLoader.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="../src/css/style.css">
     <script
         src="https://consent.cookiefirst.com/sites/cracky.ddns.net-59a7ab1b-448b-4c3b-a3af-901feeb159d2/consent.js">
     </script>
     <script>
         
     </script>
-    <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.cOS-imageFile">
+    <link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.cOS-imageFile">
     <title>
         Hausaufgaben 9E
     </title>
@@ -53,16 +53,70 @@
                             </a>
                         </li>
                         <li class="mdl-menu__item">
+                            <a href="./p/Datenschutz.php#privacySettings">
+                                <b>Datenschutz &#128271;</b>
+                            </a>
+                        </li>
+                        <li class="mdl-menu__item">
                             <a href="./contact.php?comeFrom=cOS-HomeWork.php">
                                 <b>Kontakt - Entwickler&nbsp;&#128231;</b>
                             </a>
                         </li>
+                        
                         <li class="mdl-menu__item">
                             <a href="./logout.php?comeFrom=cOS-HomeWork.php;action=user.logout();session=destroy">
                                 <b>Abmelden&nbsp;&#128682;</b>
                             </a>
                         </li>
                         
+                        <li class="mdl-menu__item" disabled>
+                            ---------------------------------------------------------
+                        </li>
+
+                        <li class="mdl-menu__item">
+                            <button type="button" class="cOS-analytics" onclick="save_auto_sync()">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="auto_sync">
+                                    <input type="checkbox" id="auto_sync" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">
+                                        Auto Sync&nbsp;&#128260;&emsp;&emsp;&emsp;&emsp;
+                                    </span>
+                                </label>
+                            </button>
+                        </li>
+
+                        <li class="mdl-menu__item">
+                            <button type="button" class="cOS-analytics" onclick="save_analytics()">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="analytics">
+                                    <input type="checkbox" id="analytics" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">
+                                        Analysedaten teilen&nbsp;&#127850;
+                                    </span>
+                                </label>
+                            </button>
+                        </li>
+
+                        <li class="mdl-menu__item">
+                            <button type="button" class="cOS-analytics" onclick="save_tracking()">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="tracking">
+                                    <input type="checkbox" id="tracking" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">
+                                        Tracking verwenden&nbsp;&#128681;
+                                    </span>
+                                </label>
+                            </button>
+                        </li>
+
+                        <li class="mdl-menu__item">
+                            <button type="button" class="cOS-analytics" onclick="save_openAI()">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="openAI">
+                                    <input type="checkbox" id="openAI" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">
+                                        KI-Analyse Training&nbsp;&#129299;
+                                    </span>
+                                </label>
+                            </button>
+                        </li>
+
                         <li class="mdl-menu__item">
                             <b>
                                 Menü Einklappen&nbsp;&#11014;
@@ -114,14 +168,14 @@
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="./changeLog.php?comeFrom=./cOS-HomeWork.php">
                     <p class="version">
-                        <script src="./src/js/version.js"></script>
+                        <script src="../src/js/version.js"></script>
                     </p>
                 </a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small>
                 </a>
-                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.cOS-imageFile">
+                <img onclick="window.location.href='#qr-action';" class="qr-share" src="../src/img/qr-share-homework.cOS-imageFile">
                     <p class="qr-text">
                         Tippe für <b>QR-Code</b>
                     </p>
@@ -313,7 +367,7 @@
                                 </div>
                             </div>
                         </center>
-                            <p class="under-menu">
+                            <!--<p class="under-menu">
                                 <button onclick="window.location.href='#cookie-settings';" id="demo-menu-top-right" 
                                 class="privacy-menu  animate-flicker mdl-button mdl-js-button mdl-button--icon">
                                     <i class="material-icons">
@@ -374,15 +428,15 @@
                                     </b>
                                 </li>
                             </ul>
-                            </p>
-                            <center>
+                            </p>-->
+                            <!--<center>
                                 <button onclick="set_top();" id="demo-menu-top-right" 
                                     class="goto-top mdl-button mdl-js-button mdl-button--icon">
                                         <i class="material-icons">
                                             adjust
                                         </i>
                                 </button>
-                            </center>
+                            </center>-->
                             <script>
                                 function refresh() {
                                     console.log("refresh page...");

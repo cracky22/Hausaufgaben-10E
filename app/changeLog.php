@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/mdl/googleAPI-style.css">
-    <link rel="stylesheet" href="./src/mdl/mdl-style.css">
-    <script src="./src/mdl/mdl-script.js"></script>
-    <script src="./src/js/script.js"></script>
-    <script src="./src/js/syncContent.js"></script>
+    <link rel="stylesheet" href="../src/mdl/googleAPI-style.css">
+    <link rel="stylesheet" href="../src/mdl/mdl-style.css">
+    <script src="../src/mdl/mdl-script.js"></script>
+    <script src="../src/js/script.js"></script>
+    <script src="../src/js/syncContent.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="../src/css/style.css">
     <!--<meta http-equiv="Refresh" content="20; url='./changeLog.php?cOS-HW.js%20update%20-y'" />-->
-    <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.cOS-imageFile">
+    <link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.cOS-imageFile">
     <title>
         Neuigkeiten
     </title>
@@ -73,13 +73,13 @@
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="#dubleClick">
                     <p class="version">
-                        <script src="./src/js/version.js"></script>
+                        <script src="../src/js/version.js"></script>
                     </p>
                 </a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.cOS-imageFile">
+                <img onclick="window.location.href='#qr-action';" class="qr-share" src="../src/img/qr-share-homework.cOS-imageFile">
                     <p class="qr-text">
                         Tippe für <b>QR-Code</b>
                     </p>
@@ -106,7 +106,7 @@
                             </div>
                             <div class="mdl-card__supporting-text">
                                 <p class="versp">
-                                    <script src="./src/js/version.js"></script>
+                                    <script src="../src/js/version.js"></script>
                                 </p>
                                 Ein Update kann Neuigkeiten sowie Fehlerkorrekturen beinhalten
                             </div>
@@ -147,14 +147,14 @@
                                         Änderungen:
                                     <br>
                                     <small>
-                                        <script src="./src/js/changes.js"></script>
+                                        <script src="../src/js/changes.js"></script>
                                     </small>
                                 </p>
                                 <br>
                             </div>
                             <div class="mdl-card__actions mdl-card--border">
                                 <p class="info">
-                                    <script src="./src/js/patchInfo.js"></script>
+                                    <script src="../src/js/patchInfo.js"></script>
                                 </p>
                             </div>
                         </div>
@@ -184,7 +184,7 @@
                         </button>
                         <br><br><br><br>
 
-                        <img class="HWImage" src="./src/img/homework-favicon1.cOS-imageFile">
+                        <img class="HWImage" src="../src/img/homework-favicon1.cOS-imageFile">
                         <br><br>
                         <p>
 
@@ -209,7 +209,7 @@
                             }
                             function dwnldAapl() {
                                 location.reload();
-                                window.location.href = "./src/apk/Hausaufgaben-9E.apk"
+                                window.location.href = "../src/apk/Hausaufgaben-9E.apk"
                             }
                             function dwnldSC() {
                                 location.reload();

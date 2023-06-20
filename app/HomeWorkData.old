@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1.warning {
+        text-align: center;
+        font-size: 90px;
+    }
+    p.warning {
+        height: auto;
+        width: auto;
+        color: red;
+        background-color: rgb(176, 176, 176);
+        border-radius: 5px;
+    }
+    p.contact {
+        text-align: center;
+        color: rgb(74, 74, 74);
+    }
+</style>
+<body>
+    <h1 class="warning">&#9888;</h1>
+    <p class="warning"><b>system internal error!</b> please contact the administrator via <i>menu > contact</i> or try to fix the problem yourself by deleting the list</p>
+    <p class="contact">&copy;&nbsp;<b>Martin Blieninger</b> | cracky></p>
+</body>
+</html>

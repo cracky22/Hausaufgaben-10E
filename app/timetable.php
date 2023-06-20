@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/mdl/googleAPI-style.css">
-    <link rel="stylesheet" href="./src/mdl/mdl-style.css">
-    <script src="./src/mdl/mdl-script.js"></script>
-    <script src="./src/js/script.js"></script>
-    <script src="./src/js/syncContent.js"></script>
+    <link rel="stylesheet" href="../src/mdl/googleAPI-style.css">
+    <link rel="stylesheet" href="../src/mdl/mdl-style.css">
+    <script src="../src/mdl/mdl-script.js"></script>
+    <script src="../src/js/script.js"></script>
+    <script src="../src/js/syncContent.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.cOS-imageFile">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.cOS-imageFile">
     <title>
         Stundenplan
     </title>
@@ -68,13 +68,13 @@
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="./changeLog.php?comeFrom=./timetable.php">
                     <p class="version">
-                        <script src="./src/js/version.js"></script>
+                        <script src="../src/js/version.js"></script>
                     </p>
                 </a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.cOS-imageFile">
+                <img onclick="window.location.href='#qr-action';" class="qr-share" src="../src/img/qr-share-homework.cOS-imageFile">
                     <p class="qr-text">
                         Tippe für <b>QR-Code</b>
                     </p>
@@ -160,27 +160,27 @@
                                 </td>
                                 <td style="text-align:center; width:35px">
                                     <span style="font-size:14px">
-                                        <script src="./src/js/cOS.timetable.js/monday/1h.js"></script>
+                                        <script src="../src/js/cOS.timetable.js/monday/1h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:35px">
                                     <span style="font-size:14px">
-                                        <script src="./src/js/cOS.timetable.js/tuesday/1h.js"></script>
+                                        <script src="../src/js/cOS.timetable.js/tuesday/1h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:31px">
                                     <span style="font-size:14px">
-                                        <script src="./src/js/cOS.timetable.js/wednesday/1h.js"></script>
+                                        <script src="../src/js/cOS.timetable.js/wednesday/1h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:54px">
                                     <span style="font-size:14px">
-                                        <script src="./src/js/cOS.timetable.js/thursday/1h.js"></script>
+                                        <script src="../src/js/cOS.timetable.js/thursday/1h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:41px">
                                     <span style="font-size:14px">
-                                        <script src="./src/js/cOS.timetable.js/friday/1h.js"></script>
+                                        <script src="../src/js/cOS.timetable.js/friday/1h.js"></script>
                                     </span>
                                 </td>
                               </tr>
@@ -194,27 +194,27 @@
                                 </td>
                                 <td style="text-align:center; width:35px">
                                     <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/monday/2h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/monday/2h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:35px">
                                     <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/tuesday/2h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/tuesday/2h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:31px">
                                     <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/wednesday/2h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/wednesday/2h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:54px">
                                     <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/thursday/2h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/thursday/2h.js"></script>
                                     </span>
                                 </td>
                                 <td style="text-align:center; width:41px">
                                     <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/friday/2h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/friday/2h.js"></script>
                                     </span>
                                 </td>
                                 </tr>
@@ -262,27 +262,27 @@
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/monday/3h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/monday/3h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/tuesday/3h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/tuesday/3h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:31px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/wednesday/3h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/wednesday/3h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:54px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/thursday/3h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/thursday/3h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:41px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/friday/3h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/friday/3h.js"></script>
                                         </span>
                                     </td>
                                 </tr>
@@ -296,27 +296,27 @@
                                 </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/monday/4h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/monday/4h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/tuesday/4h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/tuesday/4h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:31px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/wednesday/4h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/wednesday/4h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:54px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/thursday/4h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/thursday/4h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:41px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/friday/4h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/friday/4h.js"></script>
                                         </span>
                                     </td>
                                 </tr>
@@ -364,27 +364,27 @@
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/monday/5h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/monday/5h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/tuesday/5h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/tuesday/5h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:31px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/wednesday/5h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/wednesday/5h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:54px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/thursday/5h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/thursday/5h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:41px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/friday/5h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/friday/5h.js"></script>
                                         </span>
                                     </td>
                                 </tr>
@@ -398,27 +398,27 @@
                                 </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/monday/6h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/monday/6h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/tuesday/6h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/tuesday/6h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:31px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/wednesday/6h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/wednesday/6h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:54px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/thursday/6h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/thursday/6h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:41px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/friday/6h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/friday/6h.js"></script>
                                         </span>
                                     </td>
                                 </tr>
@@ -466,27 +466,27 @@
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/monday/7h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/monday/7h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/tuesday/7h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/tuesday/7h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:31px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/wednesday/7h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/wednesday/7h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:54px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/thursday/7h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/thursday/7h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:41px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/friday/7h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/friday/7h.js"></script>
                                         </span>
                                     </td>
                                 </tr>
@@ -500,27 +500,27 @@
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/monday/8h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/monday/8h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:35px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/tuesday/8h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/tuesday/8h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:31px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/wednesday/8h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/wednesday/8h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:54px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/thursday/8h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/thursday/8h.js"></script>
                                         </span>
                                     </td>
                                     <td style="text-align:center; width:41px">
                                         <span style="font-size:14px">
-                                            <script src="./src/js/cOS.timetable.js/friday/8h.js"></script>
+                                            <script src="../src/js/cOS.timetable.js/friday/8h.js"></script>
                                         </span>
                                     </td>
                                 </tr>
@@ -529,7 +529,7 @@
                         <p class="stand">
                             Aktueller Stand: 
                             <b>
-                                <script src="./src/js/cOS.timetable.js/lastChange.js"></script>
+                                <script src="../src/js/cOS.timetable.js/lastChange.js"></script>
                             </b>
                         </p>
                         <p style="text-align:justify">

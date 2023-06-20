@@ -1,7 +1,7 @@
-change1 ="Systemrelevantes Update";
-change2 ="Vorbereitung auf Version 5.0.0";
-change3 ="";
-change4 ="";
+change1 ="Neues Server-System";
+change2 ="Verbesserte Benutzeroberfäche";
+change3 ="Verbesserte App";
+change4 ="Neues Design";
 /*change5 ="";
 change6 ="";
 change7 ="";

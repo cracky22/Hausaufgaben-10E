@@ -6,13 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="refresh" content="9.8; url=mailto:cracky2208@gmail.com?subject=Kontakt - cOS.HW">
-	<link rel="stylesheet" href="./src/mdl/googleAPI-style.css">
-	<link rel="stylesheet" href="./src/mdl/mdl-style.css">
-	<script src="./src/mdl/mdl-script.js"></script>
-	<script src="./src/js/script.js"></script>
+	<link rel="stylesheet" href="../src/mdl/googleAPI-style.css">
+	<link rel="stylesheet" href="../src/mdl/mdl-style.css">
+	<script src="../src/mdl/mdl-script.js"></script>
+	<script src="../src/js/script.js"></script>
 	<link rel="manifest" href="./config/manifest.webmanifest">
-	<link rel="stylesheet" href="./src/css/style.css">
-	<link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.cOS-imageFile">
+	<link rel="stylesheet" href="../src/css/style.css">
+	<link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.cOS-imageFile">
 	<title>
 		Kontakt
 	</title>
@@ -71,13 +71,13 @@
 				<a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
 					href="./changeLog.php?comeFrom=./index.php">
 					<p class="version">
-						<script src="./src/js/version.js"></script>
+						<script src="../src/js/version.js"></script>
 					</p>
 				</a>
 				<a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
 					title="&copy;&nbsp;Martin&nbsp;Blieninger"
 					href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-				<img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.cOS-imageFile">
+				<img onclick="window.location.href='#qr-action';" class="qr-share" src="../src/img/qr-share-homework.cOS-imageFile">
 					<p class="qr-text">
                         Tippe für <b>QR-Code</b>
                     </p>
@@ -94,7 +94,7 @@
 		<main class="mdl-layout__content">
 			<div class="page-content">
 				<center>
-					<img class="sys-onload" src="./src/img/loading-contact.cOS-gifFile">
+					<img class="sys-onload" src="../src/img/loading-contact.cOS-gifFile">
 					<br>
 					<button class="contactBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
 					onclick="openInMail()">

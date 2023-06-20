@@ -585,7 +585,7 @@ button.goto-top:hover {
     font-size: 28px !important;
     font-weight: 750;
     background-image:
-        url("../img/update-card.jpg")
+        url("../img/update-card.cOS-imageFile")
         /* bottom right 1% no-repeat #46B6AC*/
     ;
     height: auto;

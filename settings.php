@@ -12,7 +12,7 @@
 	<script src="./src/js/script.js"></script>
 	<link rel="manifest" href="./config/manifest.webmanifest">
 	<link rel="stylesheet" href="./src/css/style.css">
-	<link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.png">
+	<link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.cOS-imageFile">
 	<title>
 		Einstellungen
 	</title>
@@ -77,7 +77,7 @@
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.png">
+                <img onclick="window.location.href='#qr-action';" class="qr-share" src="./src/img/qr-share-homework.cOS-imageFile">
 					<p class="qr-text">
                         Tippe für <b>QR-Code</b>
                     </p>
@@ -94,7 +94,7 @@
 		<main class="mdl-layout__content">
 			<div class="page-content">
 				<center>
-					<img class="sys-onload" src="./src/img/loading-settings.gif">
+					<img class="sys-onload" src="./src/img/loading-settings.cOS-gifFile">
 				</center>
                         <script>
                             function refresh() {

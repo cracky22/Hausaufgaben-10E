@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/mdl/googleAPI-style.css">
-    <link rel="stylesheet" href="./src/mdl/mdl-style.css">
-    <script src="./src/mdl/mdl-script.js"></script>
-    <script src="./src/js/script.js"></script>
-    <script src="./src/js/syncContent.js"></script>
+    <link rel="stylesheet" href="../src/mdl/googleAPI-style.css">
+    <link rel="stylesheet" href="../src/mdl/mdl-style.css">
+    <script src="../src/mdl/mdl-script.js"></script>
+    <script src="../src/js/script.js"></script>
+    <script src="../src/js/syncContent.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="icon" type="image/x-icon" href="./src/img/homework-favicon1.cOS-imageFile">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.cOS-imageFile">
     <title>Einstellungen</title>
-    <script src="./src/js/sysstat.js"></script>
+    <script src="../src/js/sysstat.js"></script>
 </head>
 
 <body>
@@ -66,14 +66,14 @@
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="./changeLog.php?comeFrom=./cOS-settings.php">
                     <p class="version">
-                        <script src="./src/js/version.js"></script>
+                        <script src="../src/js/version.js"></script>
                     </p>
                 </a>
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
                 <img onclick="window.location.href='#qr-action';" class="qr-share"
-                    src="./src/img/qr-share-homework.cOS-imageFile">
+                    src="../src/img/qr-share-homework.cOS-imageFile">
                 <p class="qr-text">
                     Tippe für <b>QR-Code</b>
                 </p>
@@ -94,7 +94,7 @@
                     </h5>
                     <button
                         class="settingBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-                        onclick="window.location.href='./shell.php?cmd=bash+./src/sh/sync.sh'">
+                        onclick="window.location.href='./shell.php?cmd=bash+../src/sh/sync.sh'">
                         Hausaufgaben Synchronisieren
                     </button>
                     <br>
