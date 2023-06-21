@@ -1,4 +1,4 @@
-change1 ="Synchronisierungsfehler wurde behoben";
+change1 ="Einige Fehler wurde behoben";
 change2 ="";
 change3 ="";
 change4 ="";

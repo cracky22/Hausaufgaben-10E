@@ -123,10 +123,10 @@
 								</tr>-->
 								<tr>
 									<td style="width:106px">
-									&nbsp;20.06.2023
+									&nbsp;04.07.2023
 								</td>
 									<td style="width:167px">
-									&nbsp;Projektwochen</td>
+									&nbsp;Gedenkstätte Dachau</td>
 								</tr>
 
 							</tbody>

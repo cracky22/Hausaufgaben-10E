@@ -213,7 +213,7 @@
                             }
                             function dwnldSC() {
                                 location.reload();
-                                window.location.href = "com.crackyOS.homework_current-version.zip"
+                                window.location.href = "../com.crackyOS.homework_current-version.zip"
                             }
                         </script>
                     </center>
