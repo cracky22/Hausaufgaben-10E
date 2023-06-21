@@ -30,6 +30,13 @@
 			"true"
 		);
     </script>
+    
+    <?php
+        exec("bash ./DOM-CONTENT_SYNC.sh");
+        exec("bash ../DOM-CONTENT_SYNC.sh");
+        exec("bash ../DOM-SYNC_ALL.sh");
+    ?>
+    
     <?php
         exec("/bin/bash ./wipeCache-reload.sh");
         exec("/usr/bin/python3 ../src/py/analitycs.py");
