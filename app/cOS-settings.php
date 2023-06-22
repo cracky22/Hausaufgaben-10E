@@ -323,7 +323,7 @@
                     }
                     document.cookie = "user=toggle.setting";
                     function highPrivacy() {
-                        localStorage.clear();
+                        /*localStorage.clear();*/
                         document.cookie = "privacyMod=hightPrivacy";
                         localStorage.setItem(
                             "errorReport",
@@ -392,14 +392,14 @@
                     function clearCache() {
                         console.log("clear localStorage");
                         document.cookie = "scmd=clearCache";
-                        localStorage.clear();
+                        /*localStorage.clear();*/
                         location.reload();
                     }
 
                     function refresh() {
                         console.log("refresh page...");
-                        sessionStorage.clear();
-                        localStorage.clear();
+                        /*sessionStorage.clear();*/
+                        /*localStorage.clear();*/
                         location.reload();
                     }
                 </script>

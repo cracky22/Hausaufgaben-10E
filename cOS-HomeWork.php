@@ -42,26 +42,30 @@
                     </button>
                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
                         for="demo-menu-lower-right">
+
                         <li class="mdl-menu__item">
                             <a href="./cOS--wipe-cache.php?comeFrom=cOS-HomeWork.php;action=destroy@*">
                                 <b>Komplett Neu Laden&nbsp;&#128260;</b>
                             </a>
                         </li>
+
                         <li class="mdl-menu__item">
                             <a href="./changeLog.php?comeFrom=./cOS-HomeWork.php">
                                 <b>Neuigkeiten&nbsp;[Update]&nbsp;&#128230;</b>
                             </a>
                         </li>
+
                         <li class="mdl-menu__item">
                             <a href="./contact.php?comeFrom=cOS-HomeWork.php">
                                 <b>Kontakt - Entwickler&nbsp;&#128231;</b>
                             </a>
                         </li>
-                        <li class="mdl-menu__item">
+
+                        <!--<li class="mdl-menu__item">
                             <a href="./logout.php?comeFrom=cOS-HomeWork.php;action=user.logout();session=destroy">
                                 <b>Abmelden&nbsp;&#128682;</b>
                             </a>
-                        </li>
+                        </li>-->
                         
                         <li class="mdl-menu__item">
                             <b>
@@ -69,12 +73,13 @@
                             </b>
                         </li>
                     </ul>
-                    &nbsp;
-                    <button onclick="window.location.href='./logout.php?user-sesstion=destroy.*';" 
+
+                    <!--&nbsp;-->
+                    <!--<button onclick="window.location.href='./logout.php?user-sesstion=destroy.*';" 
                     id="demo-menu-lower-right"
                     class="mdl-button mdl-js-button mdl-button--icon">
                         <i class="material-icons">logout</i>
-                    </button>
+                    </button>-->
                 </nav>
             </div>
         </header>
