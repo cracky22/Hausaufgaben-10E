@@ -16,16 +16,16 @@
     <script
         src="https://consent.cookiefirst.com/sites/cracky.ddns.net-59a7ab1b-448b-4c3b-a3af-901feeb159d2/consent.js">
     </script>
-    <script>
-        
-    </script>
-    <link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.cOS-imageFile">
+
+    <link rel="icon" type="image/x-icon" 
+    href="../src/img/homework-favicon1.cOS-imageFile">
+    
     <title>
         Hausaufgaben 9E
     </title>
 </head>
 
-<body window.onload="syncHWdata()">
+<body class="fa-app">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
@@ -70,7 +70,7 @@
                         </li>
                         
                         <li class="mdl-menu__item" disabled>
-                            ---------------------------------------------------------
+                            --------------------------------------------
                         </li>
 
                         <li class="mdl-menu__item">
@@ -192,333 +192,254 @@
         <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         <main class="mdl-layout__content">
             <div class="page-content">
-                <div class="hw-chat_framework">
-                    <hwframework src="http://cracky.ddns.net/frameworks/homework.framework/import/*">
-                        <hwscript crackyOS-http_response_code=
-                            import *
-                            for i in arry [0 to 10] in $_reloads {
-                                set var CookieID.identification = user1
-                                elf {
-                                    set var CookieID.identifikation = user2
-                                }
-                                $_.breake!.
-                            }
-                            for $user1, $user2 in $_CookieID(x) {
-                                crypto-loclStrg = a1;
-                                function.setItem = True_ @Z1;
-                                userIdentf = auto;
-                                verifymtd = beToken;
-                            }
-                            for PHPMYADMIN in $_sudo | '/bin' {
-                                push = 0;
-                                refresh = 1;
-                                breaker = document.print InnterHtml("br");
-                            
-                            locale_accept_from_http=true
-                            >
-                        </hwscript>
-                    </hwframework>
-                </div>
                 <div id="top" class="homeworkApplication">
-                    <br>
-                    <center>
-                        <form action="save.php" method="POST">
-                            <div class="container">
-                                <embed class="hwdata" title="Das sind deine Hausaufgaben" type="text/plain"
-                                    data="./HomeWorkData.html" src="./HomeWorkData.html">
-                                <br>
-                                <span style="display: inline-block;"></span>
-                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="homework mdl-textfield__input" type="text" name="hwdata" id="hwdata" required>
-                                    <label class="homework mdl-textfield__label" for="sample3">
-                                        Neue Hausaufgabe hinzufügen: 
-                                    </label>
-                                </div>
-                                <select class="fach" title="Wähle das Fach aus, indem du Hausaufgaben aufbekommen hast" name="fach" required>
-                                    <option value="" class="chooseTitle" disabled selected>
-                                        Fach auswählen
-                                    </option>
-                                    <option title="Betriebswirtschaftslehre und Rechnungswesen" value="BwR&nbsp;&#128215;">
-                                        BwR&nbsp;&#128215;
-                                    </option>
-                                    <option title="Deutsch" value="Deutsch&nbsp;&#128217;">
-                                        Deutsch&nbsp;&#128217;
-                                    </option>
-                                    <option title="Mathematik" value="Mathe&nbsp;&#128213;">
-                                        Mathe&nbsp;&#128213;
-                                    </option>
-                                    <option title="Englisch" value="Englisch&nbsp;&#128216;">
-                                        Englisch&nbsp;&#128216;
-                                    </option>
-                                    <option title="Informationstechnologie" value="Informatik&nbsp;&#128187;">
-                                        Informatik&nbsp;&#128187;
-                                    </option>
-                                    <option title="Chemie" value="Chemie&nbsp;&#128211;">
-                                        Chemie&nbsp;&#128211;
-                                    </option>
-                                    <option title="Physik" value="Physik&nbsp;&#128211;">
-                                        Physik&nbsp;&#128211;
-                                    </option>
-                                    <option title="Wirtschaft und Recht" value="WuR&nbsp;&#128210;">
-                                        WuR&nbsp;&#128210;
-                                    </option>
-                                    <option title="Geographie" value="Geographie&nbsp;&#127758;">
-                                        Geographie&nbsp;&#127758;
-                                    </option>
-                                    <option title="Geschichte" value="Geschichte&nbsp;&#128212;">
-                                        Geschichte&nbsp;&#128212;
-                                    </option>
-                                    <option title="Musik" value="Musik&nbsp;&#127925;">
-                                        Musik&nbsp;&#127925;
-                                    </option>
-                                    <option title="Kunst" value="Kunst&nbsp;&#127912;">
-                                        Kunst&nbsp;&#127912;
-                                    </option>
-                                    <option title="Organisatorische Aufgaben von Lehrern"
-                                        value="<small>Organisatorisches &#128193;</small>">
-                                        Organisatorisches&nbsp;&#128193;</option>
-                                    <option title="Sonstiges (Falls oben nicht aufgelistet)"
-                                        value="Sonstiges&nbsp;&#128194;">Sonstiges&nbsp;&#128194;
-                                    </option>
-                                </select>
-                                <select class="date" title="" name="date">
-                                    <option value="" class="chooseTitle" disabled selected>
-                                        bis wann?
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis Montag zu erledigen"
-                                        value="&nbsp;<small>(bis Montag)</small>">
-                                        Montag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis Dienstag zu erledigen"
-                                        value="&nbsp;<small>(bis Dienstag)</small>">
-                                        Dienstag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis Mittwoch zu erledigen"
-                                        value="&nbsp;<small>(bis Mittwoch)</small>">
-                                        Mittwoch
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis Donnerstag zu erledigen"
-                                        value="&nbsp;<small>(bis Donnerstag)</small>">
-                                        Donnerstag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis Freitag zu erledigen"
-                                        value="&nbsp;<small>(bis Freitag)</small>">
-                                        Freitag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis nächsten Montag zu erledigen"
-                                        value="&nbsp;<small>(bis Freitag)</small>">
-                                        nächsten Montag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis nächsten Dienstag zu erledigen"
-                                        value="&nbsp;<small>(bis Freitag)</small>">
-                                        nächsten Dienstag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis nächsten Mittwoch zu erledigen"
-                                        value="&nbsp;<small>(bis Freitag)</small>">
-                                        nächsten Mittwoch
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis nächsten Donnerstag zu erledigen"
-                                        value="&nbsp;<small>(bis Freitag)</small>">
-                                        nächsten Donnerstag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis nächsten Freitag zu erledigen"
-                                        value="&nbsp;<small>(bis Freitag)</small>">
-                                        nächsten Freitag
-                                    </option>
-                                    <option title="Die Hausaufgaben sind bis nächste Woche zu erledigen"
-                                        value="&nbsp;<small>(bis nächste Woche)</small>">
-                                        übernächste Woche
-                                    </option>
-                                </select>
-                                &nbsp;&nbsp;
-                                <span style="display: inline-block;"></span>
-                                <input class="submit" type="submit"
-                                    title="Sende die eingegebenen Hausaufgaben für alle Nutzer in die Liste"
-                                    value="senden" />
-                                <br>
-                            </form>
-                            
-                            <div class="clearBtn">
-                                <button
-                                    class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                    type="button" onclick="window.location.href='#clearDialog'">
-                                    Hausaufgaben leeren
-                                </button>
-                            </div>
-
-                            <div id="clearDialog" class="overlay">
-                                <div class="popup">
-                                    <h4>Liste leeren?</h4>
-                                    <a class="close" href="#closeDialoge">
-                                        &times;
-                                    </a>
-                                    <div class="content">
-                                        <button type="button" onclick="window.location.href='#closeDialoge';"
-                                        class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                            Nein
-                                        </button>
-                                        &emsp;
-                                        <button type="button" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';"
-                                        class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                            Ja
-                                        </button>
-                                        <br><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </center>
-                            <!--<p class="under-menu">
-                                <button onclick="window.location.href='#cookie-settings';" id="demo-menu-top-right" 
-                                class="privacy-menu  animate-flicker mdl-button mdl-js-button mdl-button--icon">
-                                    <i class="material-icons">
-                                        security
-                                    </i>
-                                </button>
-
-                            <ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect" 
-                            data-mdl-for="demo-menu-top-right">
-                                <li class="mdl-menu__item">
-                                    <a href="./p/Datenschutz.php#privacySettings">
-                                        <b>Datenschutz Einstellungen</b>
-                                    </a>
-                                </li>
-                                <li class="mdl-menu__item">
-                                    <button type="button" class="cOS-analytics" onclick="save_auto_sync()">
-                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="auto_sync">
-                                            <input type="checkbox" id="auto_sync" class="mdl-checkbox__input" checked>
-                                            <span class="mdl-checkbox__label">
-                                                Auto Sync&nbsp;&#128260;&emsp;&emsp;&emsp;&emsp;
-                                            </span>
-                                        </label>
-                                    </button>
-                                </li>
-                                <li class="mdl-menu__item">
-                                    <button type="button" class="cOS-analytics" onclick="save_analytics()">
-                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="analytics">
-                                            <input type="checkbox" id="analytics" class="mdl-checkbox__input" checked>
-                                            <span class="mdl-checkbox__label">
-                                                Analysedaten teilen&nbsp;&#127850;
-                                            </span>
-                                        </label>
-                                    </button>
-                                </li>
-                                <li class="mdl-menu__item">
-                                    <button type="button" class="cOS-analytics" onclick="save_tracking()">
-                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="tracking">
-                                            <input type="checkbox" id="tracking" class="mdl-checkbox__input" checked>
-                                            <span class="mdl-checkbox__label">
-                                                Tracking verwenden&nbsp;&#128681;
-                                            </span>
-                                        </label>
-                                    </button>
-                                </li>
-                                <li class="mdl-menu__item">
-                                    <button type="button" class="cOS-analytics" onclick="save_openAI()">
-                                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="openAI">
-                                            <input type="checkbox" id="openAI" class="mdl-checkbox__input" checked>
-                                            <span class="mdl-checkbox__label">
-                                                KI-Analyse Training&nbsp;&#129299;
-                                            </span>
-                                        </label>
-                                    </button>
-                                </li>
-                                <li class="mdl-menu__item">
-                                    <b>
-                                        Menü Einklappen&nbsp;&#11015;
-                                    </b>
-                                </li>
-                            </ul>
-                            </p>-->
-                            <!--<center>
-                                <button onclick="set_top();" id="demo-menu-top-right" 
-                                    class="goto-top mdl-button mdl-js-button mdl-button--icon">
-                                        <i class="material-icons">
-                                            adjust
-                                        </i>
-                                </button>
-                            </center>-->
-                            <script>
-                                function refresh() {
-                                    console.log("refresh page...");
-                                    location.reload();
-                                }
-                                
-                                async function set_top() {
-                                    console.log('go to top');
-                                    await new Promise(resolve => setTimeout(resolve, 230));
-                                    goto_top();
-                                }
-
-                                //localStorage.setItem("auto_sync", "true")
-
-                                function goto_top() {
-                                    window.location.href='#top';
-                                }
-
-                                function save_auto_sync() {
-                                    var checkbox = document.getElementById("auto_sync");
-                                    localStorage.setItem("auto_sync", checkbox.checked); analytics
-                                    document.cookie = ("auto_sync", checkbox.checked);
-                                    //location.reload();
-                                }
-                                var checked = JSON.parse(localStorage.getItem("auto_sync"));
-                                document.getElementById("auto_sync").checked = checked;
-
-                                function save_analytics() {
-                                    var checkbox = document.getElementById("analytics");
-                                    localStorage.setItem("analytics", checkbox.checked); analytics
-                                    document.cookie = ("analytics", checkbox.checked);
-                                    //location.reload();
-                                }
-                                var checked = JSON.parse(localStorage.getItem("analytics"));
-                                document.getElementById("analytics").checked = checked;
-
-                                localStorage.setItem("__name__", "__main__")
-                                document.cookie = "onload=true";
-
-                                function save_tracking() {
-                                    var checkbox = document.getElementById("tracking");
-                                    localStorage.setItem("tracking", checkbox.checked); tracking
-                                    tracking="tracking.tracking"
-                                    document.cookie = (tracking = checkbox.checked);
-                                    
-                                    //location.reload();
-                                }
-
-                                var checked = JSON.parse(localStorage.getItem("tracking"));
-                                document.getElementById("tracking").checked = checked;
-
-
-                                function save_openAI() {
-                                    var checkbox = document.getElementById("openAI");
-                                    localStorage.setItem("openAI", checkbox.checked); openAI
-                                    document.cookie = ("openAI", checkbox.checked);
-                                    //location.reload();
-                                }
-
-                                var checked = JSON.parse(localStorage.getItem("openAI"));
-                                document.getElementById("openAI").checked = checked;
-                            </script>
-
-                            <div class="php-script">
-                                <?php
-                                    $protocol = $_SERVER['SERVER_PROTOCOL'];
-                                    $ip = $_SERVER['REMOTE_ADDR'];
-                                    $port = $_SERVER['REMOTE_PORT'];
-                                    $agent = $_SERVER['HTTP_USER_AGENT'];
-                                    $ref = $_SERVER['HTTP_REFERER'];
-                                    $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-                                    $fh = fopen('ip-accesslog.cOS-logF', 'a');
-                                    fwrite($fh, 'IP Address: '."".$ip ."\n");
-                                    fwrite($fh, 'Hostname: '."".$hostname ."\n");
-                                    fwrite($fh, 'Port Number: '."".$port ."\n");
-                                    fwrite($fh, 'User Agent: '."".$agent ."\n");
-                                    fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
-                                    fclose($fh);
-                                ?>
-                            </div>
+                <br>
+                <center>
+                    <div class="container">
+                        <embed class="hwdata" title="Das sind deine Hausaufgaben" type="text/plain"
+                            data="./HomeWorkData.html" src="./HomeWorkData.html">
                         <br>
+
+                        <!--Dialog beim Erstellen & Speichern einer Hausaufgabe-->
+                        <div id="add_homework" class="overlay">
+                            <div class="popup">
+                                <a class="close" href="#close_dialoge">
+                                    &times;
+                                </a>
+                                <div class="content">
+                                    <form action="save.php" method="POST">
+                                        <span style="display: inline-block;"></span>
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="homework mdl-textfield__input" type="text" name="hwdata" id="hwdata" required>
+                                            <label class="homework mdl-textfield__label" for="sample3">
+                                                Neue Hausaufgabe hinzufügen: 
+                                            </label>
+                                        </div>
+                                        <select class="fach" title="Wähle das Fach aus, indem du Hausaufgaben aufbekommen hast" name="fach" required>
+                                            <option value="" class="chooseTitle" disabled selected>
+                                                Fach auswählen
+                                            </option>
+                                            <option title="Betriebswirtschaftslehre und Rechnungswesen" value="BwR&nbsp;&#128215;">
+                                                BwR&nbsp;&#128215;
+                                            </option>
+                                            <option title="Deutsch" value="Deutsch&nbsp;&#128217;">
+                                                Deutsch&nbsp;&#128217;
+                                            </option>
+                                            <option title="Mathematik" value="Mathe&nbsp;&#128213;">
+                                                Mathe&nbsp;&#128213;
+                                            </option>
+                                            <option title="Englisch" value="Englisch&nbsp;&#128216;">
+                                                Englisch&nbsp;&#128216;
+                                            </option>
+                                            <option title="Informationstechnologie" value="Informatik&nbsp;&#128187;">
+                                                Informatik&nbsp;&#128187;
+                                            </option>
+                                            <option title="Chemie" value="Chemie&nbsp;&#128211;">
+                                                Chemie&nbsp;&#128211;
+                                            </option>
+                                            <option title="Physik" value="Physik&nbsp;&#128211;">
+                                                Physik&nbsp;&#128211;
+                                            </option>
+                                            <option title="Wirtschaft und Recht" value="WuR&nbsp;&#128210;">
+                                                WuR&nbsp;&#128210;
+                                            </option>
+                                            <option title="Geographie" value="Geographie&nbsp;&#127758;">
+                                                Geographie&nbsp;&#127758;
+                                            </option>
+                                            <option title="Geschichte" value="Geschichte&nbsp;&#128212;">
+                                                Geschichte&nbsp;&#128212;
+                                            </option>
+                                            <option title="Musik" value="Musik&nbsp;&#127925;">
+                                                Musik&nbsp;&#127925;
+                                            </option>
+                                            <option title="Kunst" value="Kunst&nbsp;&#127912;">
+                                                Kunst&nbsp;&#127912;
+                                            </option>
+                                            <option title="Organisatorische Aufgaben von Lehrern"
+                                                value="<small>Organisatorisches &#128193;</small>">
+                                                Organisatorisches&nbsp;&#128193;</option>
+                                            <option title="Sonstiges (Falls oben nicht aufgelistet)"
+                                                value="Sonstiges&nbsp;&#128194;">Sonstiges&nbsp;&#128194;
+                                            </option>
+                                        </select>
+                                        <select class="date" title="" name="date">
+                                            <option value="" class="chooseTitle" disabled selected>
+                                                bis wann?
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis Montag zu erledigen"
+                                                value="&nbsp;<small>(bis Montag)</small>">
+                                                Montag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis Dienstag zu erledigen"
+                                                value="&nbsp;<small>(bis Dienstag)</small>">
+                                                Dienstag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis Mittwoch zu erledigen"
+                                                value="&nbsp;<small>(bis Mittwoch)</small>">
+                                                Mittwoch
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis Donnerstag zu erledigen"
+                                                value="&nbsp;<small>(bis Donnerstag)</small>">
+                                                Donnerstag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis Freitag zu erledigen"
+                                                value="&nbsp;<small>(bis Freitag)</small>">
+                                                Freitag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis nächsten Montag zu erledigen"
+                                                value="&nbsp;<small>(bis Freitag)</small>">
+                                                nächsten Montag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis nächsten Dienstag zu erledigen"
+                                                value="&nbsp;<small>(bis Freitag)</small>">
+                                                nächsten Dienstag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis nächsten Mittwoch zu erledigen"
+                                                value="&nbsp;<small>(bis Freitag)</small>">
+                                                nächsten Mittwoch
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis nächsten Donnerstag zu erledigen"
+                                                value="&nbsp;<small>(bis Freitag)</small>">
+                                                nächsten Donnerstag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis nächsten Freitag zu erledigen"
+                                                value="&nbsp;<small>(bis Freitag)</small>">
+                                                nächsten Freitag
+                                            </option>
+                                            <option title="Die Hausaufgaben sind bis nächste Woche zu erledigen"
+                                                value="&nbsp;<small>(bis nächste Woche)</small>">
+                                                übernächste Woche
+                                            </option>
+                                        </select>
+                                        &nbsp;&nbsp;
+                                        <span style="display: inline-block;"></span>
+                                        <button type="submit" title="Speichere die eingegebenen Hausaufgaben in die Liste"
+                                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                            Speichern
+                                        </button>
+                                    </form>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Dialog beim Leeren der Liste-->
+                        <div id="clear_dialog" class="overlay">
+                            <div class="popup">
+                                <h4>Liste leeren?</h4>
+                                <a class="close" href="#close_dialoge">
+                                    &times;
+                                </a>
+                                <div class="content">
+                                    <button type="button" onclick="window.location.href='#close_dialoge';"
+                                    class="clear-dialoge-button no mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                        Nein
+                                    </button>
+                                    &emsp;
+                                    <button type="button" onclick="window.location.href='./shell.php?cmd=bash+clearHomeWorkData.sh';"
+                                    class="clear-dialoge-button yes mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                        Ja
+                                    </button>
+                                    <br><br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="action_buttons">
+                            <button onclick="window.location.href='#add_homework';" type="button"
+                            class="add mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                            <i class="material-icons">add</i>
+                            </button>
+
+                            <button
+                                class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                type="button" onclick="window.location.href='#clear_dialog';">
+                                Hausaufgaben leeren
+                            </button>
+                        </div>
+                </center>
+
+                <script>
+                    function refresh() {
+                        console.log("refresh page...");
+                        location.reload();
+                    }
+                    
+                    async function set_top() {
+                        console.log('go to top');
+                        await new Promise(resolve => setTimeout(resolve, 230));
+                        goto_top();
+                    }
+
+                    //localStorage.setItem("auto_sync", "true")
+
+                    function goto_top() {
+                        window.location.href='#top';
+                    }
+
+                    function save_auto_sync() {
+                        var checkbox = document.getElementById("auto_sync");
+                        localStorage.setItem("auto_sync", checkbox.checked); analytics
+                        document.cookie = ("auto_sync", checkbox.checked);
+                        //location.reload();
+                    }
+                    var checked = JSON.parse(localStorage.getItem("auto_sync"));
+                    document.getElementById("auto_sync").checked = checked;
+
+                    function save_analytics() {
+                        var checkbox = document.getElementById("analytics");
+                        localStorage.setItem("analytics", checkbox.checked); analytics
+                        document.cookie = ("analytics", checkbox.checked);
+                        //location.reload();
+                    }
+                    var checked = JSON.parse(localStorage.getItem("analytics"));
+                    document.getElementById("analytics").checked = checked;
+
+                    localStorage.setItem("__name__", "__main__")
+                    document.cookie = "onload=true";
+
+                    function save_tracking() {
+                        var checkbox = document.getElementById("tracking");
+                        localStorage.setItem("tracking", checkbox.checked); tracking
+                        tracking="tracking.tracking"
+                        document.cookie = (tracking = checkbox.checked);
+                        
+                        //location.reload();
+                    }
+
+                    var checked = JSON.parse(localStorage.getItem("tracking"));
+                    document.getElementById("tracking").checked = checked;
+
+
+                    function save_openAI() {
+                        var checkbox = document.getElementById("openAI");
+                        localStorage.setItem("openAI", checkbox.checked); openAI
+                        document.cookie = ("openAI", checkbox.checked);
+                        //location.reload();
+                    }
+
+                    var checked = JSON.parse(localStorage.getItem("openAI"));
+                    document.getElementById("openAI").checked = checked;
+                </script>
+
+                <div class="php-script">
+                    <?php
+                        $protocol = $_SERVER['SERVER_PROTOCOL'];
+                        $ip = $_SERVER['REMOTE_ADDR'];
+                        $port = $_SERVER['REMOTE_PORT'];
+                        $agent = $_SERVER['HTTP_USER_AGENT'];
+                        $ref = $_SERVER['HTTP_REFERER'];
+                        $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+                        $fh = fopen('ip-accesslog.cOS-logF', 'a');
+                        fwrite($fh, 'IP Address: '."".$ip ."\n");
+                        fwrite($fh, 'Hostname: '."".$hostname ."\n");
+                        fwrite($fh, 'Port Number: '."".$port ."\n");
+                        fwrite($fh, 'User Agent: '."".$agent ."\n");
+                        fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
+                        fclose($fh);
+                    ?>
                 </div>
+                <br>
             </div>
         </main>
     </div>

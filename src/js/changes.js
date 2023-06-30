@@ -1,5 +1,5 @@
-change1 ="Einige Fehler wurde behoben";
-change2 ="";
+change1 ="UI Verbesserungen";
+change2 ="Einige Fehler wurde behoben";
 change3 ="";
 change4 ="";
 /*change5 ="";

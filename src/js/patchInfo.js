@@ -1,8 +1,8 @@
-patchDateDay = 22;
+patchDateDay = 30;
 patchDateMonth = 06;
 
-patchTimeHour = 20;
-patchTimeMinute = 27;
+patchTimeHour = 21;
+patchTimeMinute = 32;
 
 patchSizeF = 103;
 patchSizeS = 55;

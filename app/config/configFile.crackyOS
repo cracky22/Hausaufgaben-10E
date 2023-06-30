@@ -1,0 +1,70 @@
+!crackyOS configuration file--]
+
+ap -tc = ! {
+    fi = ng;
+    fi = nc::
+        l.chSet_nul => any;
+    autoNK -.* | dtrb
+}
+
+!getConf--]
+
+setVar {%ws} => to WebServer_ApacheTomcat
+setVar {%usr} => to -u pi:pi 
+
+cOS --config -autoNK {
+    sctl start crackyOS --applicationName + ActiveDirectory(s)
+        ||[
+            applicationName = com.crackyOS.homework
+        ]
+    sctl enmd -u -g -A {applicationName}
+}
+
+bncfd = sys.selinux.sec --o -c in {
+    dtfield [*.eol;;*.file;;*.shell;;*.sh;;*.myscript]
+}
+
+gitConfigFolderIndex {
+    \ignore + httpd@er443
+}
+
+.vscodePluginIndex {
+    \ignore + httpd@er443
+}
+
+apfs-devcfd = [*.icloud.com] / [*.apple.com] {
+    httpd.sspeed = 100000
+    ufw-cfg_cOS = allow + {port} + /tcp
+}
+
+cOS.apiToken = {686ff51b-7662-470a-8a89-a0f122d3e4d3}
+cOS.idToken = {df149ec8-86db-43f1-9a19-e8d91559576f}
+cOS.aplToken = {91922078-f24e-43c1-9f6a-5b91a8350b6b}
+cOS.sec-preSharedKey = {d1af2953-aba1-46ae-ba77-96837d825e29}
+cOS.usr-cns.log = {6f372322-f670-497d-884d-738ee00e3883}
+
+hwscript.run crackyOS-Code {
+    import *
+    for i in arry [0 to 10] in $_reloads {
+        set var CookieID.identification = user1
+            elf {
+                set var CookieID.identifikation = user2
+            }
+        $_.breake!.
+    }
+    for $user1, $user2 in $_CookieID(x) {
+        crypto-loclStrg = a1;
+        function.setItem = True_ @Z1;
+        userIdentf = auto;
+        verifymtd = beToken;
+    }
+    for PHPMYADMIN in $_sudo | '/bin' {
+        push = 0;
+        refresh = 1;
+        breaker = document.print InnterHtml("br");
+    }
+}
+
+in ${%user} @ pi:pi && cracky:crackyOS [
+    sh.command {apply}
+]

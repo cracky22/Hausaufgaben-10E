@@ -25,7 +25,7 @@
     </title>
 </head>
 
-<body window.onload="syncHWdata()">
+<body window.onload="syncHWdata();" onload="syncHWdata();" class="fa-web">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
@@ -289,9 +289,9 @@
                                 <br>
                             </form>
                             
-                            <div class="clearBtn">
+                            <div class="clearBtn-web">
                                 <button
-                                    class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    class="clearBtn-web mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                                     type="button" onclick="window.location.href='#clearDialog'">
                                     Hausaufgaben leeren
                                 </button>
