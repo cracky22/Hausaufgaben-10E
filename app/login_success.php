@@ -11,6 +11,7 @@
 <body>
     <script>
         localStorage.setItem("com.crackyOS.homework_user-login", "410083735735a10e658a19edd1704e606c9dd112e225825b63fafeded766c8b9");
+        localStorage.setItem("auto_login", "false");
     </script>
 </body>
 </html>

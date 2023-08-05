@@ -12,3 +12,18 @@ syncTime = randomNumber(1800, 2800);
 setTimeout(() => {
     SystemStatus();
   }, syncTime)
+
+
+  while (counter < 20) {
+    fetch(
+      "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/system_status"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Fehler bei der Anfrage:", error);
+      });
+    counter++;
+  }

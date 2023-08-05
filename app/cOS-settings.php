@@ -98,6 +98,13 @@
                         Hausaufgaben Synchronisieren
                     </button>
                     <br>
+                    <button type="button" class="cOS-auto_sync btn-spacer" onclick="save_auto_login()">
+                        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="auto_login">
+                            <input type="checkbox" id="auto_login" class="mdl-switch__input">
+                            <span class="mdl-switch__label">Automatische&nbsp;Anmeldung</span>
+                        </label>
+                    </button>
+                    <br>
                     <button type="button" class="cOS-auto_sync btn-spacer" onclick="save_auto_sync()">
                         <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="auto_sync">
                             <input type="checkbox" id="auto_sync" class="mdl-switch__input">&nbsp;
@@ -178,11 +185,11 @@
                             </small>
                             <p>
                                 <small>
-                                    <b>Server:</b>&nbsp;Raspberry&nbsp;Pi&nbsp;4B&nbsp;4GB&nbsp;DDR4&nbsp;RAM
+                                    <b>Server:</b>&nbsp;Synology&nbsp;DS&nbsp;220+&nbsp;8TB&nbsp;10GB&nbsp;DDR4&nbsp;RAM
                                     <br>
-                                    <b>Betriebssystem:</b>&nbsp;Debian&nbsp;(Raspbian)&nbsp;11&nbsp;Lite
+                                    <b>Betriebssystem:</b>&nbsp;SynologyDSM&nbsp;7.2&nbsp;&nbsp;Ubuntu&nbsp;Server
                                     <br>
-                                    <b>WebServer</b>&nbsp;/&nbsp;<b>Backend:</b>&nbsp;Apache2&nbsp;/&nbsp;PHP&nbsp;8.1
+                                    <b>WebServer</b>&nbsp;/&nbsp;<b>Backend:</b>&nbsp;Apache2&nbsp;/&nbsp;PHP&nbsp;8.2
                                 </small>
                             </p>
                         </h6>
@@ -313,6 +320,15 @@
                 </center>
                 <br>
                 <script>
+                    var checked = JSON.parse(localStorage.getItem("auto_login"));
+                    document.getElementById("auto_login").checked = checked;
+                    function save_auto_login() {
+                        var checkbox = document.getElementById("auto_login");
+                        localStorage.setItem("auto_login", checkbox.checked);
+                        document.cookie = "analytics=saveStd";
+                        //location.reload();
+                    }
+
                     var checked = JSON.parse(localStorage.getItem("auto_sync"));
                     document.getElementById("auto_sync").checked = checked;
                     function save_auto_sync() {

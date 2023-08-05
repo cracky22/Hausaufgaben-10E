@@ -178,11 +178,11 @@
                             </small>
                             <p>
                                 <small>
-                                    <b>Server:</b>&nbsp;Raspberry&nbsp;Pi&nbsp;4B&nbsp;4GB&nbsp;DDR4&nbsp;RAM
+                                    <b>Server:</b>&nbsp;Synology&nbsp;DS&nbsp;220+&nbsp;8TB&nbsp;10GB&nbsp;DDR4&nbsp;RAM
                                     <br>
-                                    <b>Betriebssystem:</b>&nbsp;Debian&nbsp;(Raspbian)&nbsp;11&nbsp;Lite
+                                    <b>Betriebssystem:</b>&nbsp;SynologyDSM&nbsp;7.2&nbsp;&nbsp;Ubuntu&nbsp;Server
                                     <br>
-                                    <b>WebServer</b>&nbsp;/&nbsp;<b>Backend:</b>&nbsp;Apache2&nbsp;/&nbsp;PHP&nbsp;8.1
+                                    <b>WebServer</b>&nbsp;/&nbsp;<b>Backend:</b>&nbsp;Apache2&nbsp;/&nbsp;PHP&nbsp;8.2
                                 </small>
                             </p>
                         </h6>

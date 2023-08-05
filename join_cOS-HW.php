@@ -30,6 +30,21 @@
 			"undefinied"
 		);
     </script>
+    <script>
+        while (counter < 20) {
+            fetch(
+                "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/start"
+            )
+                .then((response) => response.json())
+                .then((data) => {
+                console.log(data);
+                })
+                .catch((error) => {
+                console.error("Fehler bei der Anfrage:", error);
+                });
+            counter++;
+            }
+    </script>
     <?php
         exec("/usr/bin/python3 ./src/py/analitycs.py");
     ?>

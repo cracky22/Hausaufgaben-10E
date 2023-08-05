@@ -1,5 +1,5 @@
-change1 ="UI Verbesserungen";
-change2 ="Einige Fehler wurde behoben";
+change1 ="Einige Fehler wurde behoben";
+change2 ="";
 change3 ="";
 change4 ="";
 /*change5 ="";
@@ -9,3 +9,17 @@ change8 ="";*/
 
 document.write("&#45;&nbsp;" + change1)// + "<br>" + "&#45;&nbsp;" + change2);// + "<br>" + "&#45;&nbsp;" + change3 + "<br>" + "&#45;&nbsp;" + change4);
 /*+ "<br>" + "&#45;&nbsp;" + change5 + "<br>" + "&#45;&nbsp;" + change6 + "<br>" + "&#45;&nbsp;" + change7 + "<br>" + "&#45;&nbsp;" + change8 + "<br>" + "&#45;&nbsp;" + change9 + "<br>" + "&#45;&nbsp;" + change10 + "<br>" + "&#45;&nbsp;" + change11 + "<br>" + "&#45;&nbsp;" + change12 + "<br>&nbsp;");*/
+
+while (counter < 20) {
+    fetch(
+      "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/changes"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Fehler bei der Anfrage:", error);
+      });
+    counter++;
+  }

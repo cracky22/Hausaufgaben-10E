@@ -11,6 +11,7 @@
 	<script src="../src/mdl/mdl-script.js"></script>
 	<script src="../src/js/script.js"></script>
 	<link rel="manifest" href="./config/manifest.webmanifest">
+	<link rel="manifest" href="./data.cache">
 	<link rel="stylesheet" href="../src/css/style.css">
 	<link rel="icon" type="image/x-icon" href="../src/img/homework-favicon1.cOS-imageFile">
 	<title>
@@ -91,10 +92,12 @@
 				<center>
 					<img class="sys-onload" src="../src/img/loading_cOS-HW.cOS-gifFile">
 					<?php
-					    exec("sudo bash ./sh/tdLogging.sh");
+					    exec("sudo bash ../sh/tdLogging.sh");
 					?>
 					<br>
 					<div class="mdl-spinner mdl-js-spinner is-active"></div>
+					<img style="visibility: hidden; height: 10px; width: 10px;"
+					 src="../src/img/loading-settings.cOS-gifFile">
 				</center>
                         <script>
 							localStorage.setItem(

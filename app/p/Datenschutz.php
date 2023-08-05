@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../src/mdl/mdl-style.css">
     <link rel="manifest" href="../config/manifest.webmanifest">
     <script src="../../src/mdl/mdl-script.js"></script>
-    <link rel="icon" type="image/x-icon" href="../../src/img/homework-favicon1.png">
+    <link rel="icon" type="image/x-icon" href="../../src/img/homework-favicon1.cOS-imageFile">
     <title>
         Datenschutz
     </title>
@@ -78,7 +78,7 @@
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
                     href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small></a>
-                <img onclick="window.location.href='#qr-action';" class="qr-share" src="../../src/img/qr-share-homework.png">
+                <img onclick="window.location.href='#qr-action';" class="qr-share" src="../../src/img/qr-share-homework.cOS-imageFile">
                     <p class="qr-text">
                         Tippe für <b>QR-Code</b>
                     </p>

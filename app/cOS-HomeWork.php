@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="de-De">
 
 <head>
@@ -12,6 +13,8 @@
     <script src="../src/js/sync.js"></script>
     <script src="../src/js/syncLoader.js"></script>
     <link rel="manifest" href="./config/manifest.webmanifest">
+    <link rel="manifest" href="./data.cache">
+    <html manifest="./data.cache">
     <link rel="stylesheet" href="../src/css/style.css">
     <script
         src="https://consent.cookiefirst.com/sites/cracky.ddns.net-59a7ab1b-448b-4c3b-a3af-901feeb159d2/consent.js">
@@ -25,7 +28,23 @@
     </title>
 </head>
 
-<body class="fa-app">
+<script>
+    while (counter < 20) {
+        fetch(
+            "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/fa-main.$_DIR"
+        )
+            .then((response) => response.json())
+            .then((data) => {
+            console.log(data);
+            })
+            .catch((error) => {
+            console.error("Fehler bei der Anfrage:", error);
+            });
+        counter++;
+        }
+</script>
+
+<body class="fa-app" onload="check_for_updates();">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
@@ -44,41 +63,62 @@
                         for="demo-menu-lower-right">
                         <li class="mdl-menu__item">
                             <a href="./cOS--wipe-cache.php?comeFrom=cOS-HomeWork.php;action=destroy@*">
-                                <b>Komplett Neu Laden&nbsp;&#128260;</b>
+                                <b>
+                                    Komplett Neu Laden&nbsp;&#128260;
+                                </b>
                             </a>
                         </li>
                         <li class="mdl-menu__item">
                             <a href="./changeLog.php?comeFrom=./cOS-HomeWork.php">
-                                <b>Neuigkeiten&nbsp;[Update]&nbsp;&#128230;</b>
+                                <b>
+                                    Neuigkeiten&nbsp;[Update]&nbsp;&#128230;
+                                </b>
                             </a>
                         </li>
                         <li class="mdl-menu__item">
                             <a href="./p/Datenschutz.php#privacySettings">
-                                <b>Datenschutz &#128271;</b>
+                                <b>
+                                    Datenschutz &#128271;
+                                </b>
                             </a>
                         </li>
                         <li class="mdl-menu__item">
                             <a href="./contact.php?comeFrom=cOS-HomeWork.php">
-                                <b>Kontakt - Entwickler&nbsp;&#128231;</b>
+                                <b>
+                                    Kontakt - Entwickler&nbsp;&#128231;
+                                </b>
                             </a>
                         </li>
                         
                         <li class="mdl-menu__item">
-                            <a href="./logout.php?comeFrom=cOS-HomeWork.php;action=user.logout();session=destroy">
-                                <b>Abmelden&nbsp;&#128682;</b>
+                            <a href="./logout.php?comeFrom=cOS-HomeWork.php;action=user.logout();session=destroy;">
+                                <b>
+                                    Abmelden&nbsp;&#128682;
+                                </b>
                             </a>
                         </li>
                         
                         <li class="mdl-menu__item" disabled>
                             --------------------------------------------
                         </li>
+                        <li class="mdl-menu__item">
+                            <button type="button" class="cOS-analytics" onclick="save_auto_login()">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="auto_login">
+                                    <input type="checkbox" id="auto_login" class="mdl-checkbox__input">
+                                    <span class="mdl-checkbox__label">
+                                        Auto Login&nbsp;&#128682;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;
+                                    </span>
+                                </label>
+                            </button>
+                        </li>
+                        <br>
 
                         <li class="mdl-menu__item">
                             <button type="button" class="cOS-analytics" onclick="save_auto_sync()">
                                 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="auto_sync">
-                                    <input type="checkbox" id="auto_sync" class="mdl-checkbox__input" checked>
+                                    <input type="checkbox" id="auto_sync" class="mdl-checkbox__input">
                                     <span class="mdl-checkbox__label">
-                                        Auto Sync&nbsp;&#128260;&emsp;&emsp;&emsp;&emsp;
+                                        Auto Sync&nbsp;&#128260;&nbsp;&emsp;&emsp;&emsp;&emsp;
                                     </span>
                                 </label>
                             </button>
@@ -87,7 +127,7 @@
                         <li class="mdl-menu__item">
                             <button type="button" class="cOS-analytics" onclick="save_analytics()">
                                 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="analytics">
-                                    <input type="checkbox" id="analytics" class="mdl-checkbox__input" checked>
+                                    <input type="checkbox" id="analytics" class="mdl-checkbox__input">
                                     <span class="mdl-checkbox__label">
                                         Analysedaten teilen&nbsp;&#127850;
                                     </span>
@@ -98,7 +138,7 @@
                         <li class="mdl-menu__item">
                             <button type="button" class="cOS-analytics" onclick="save_tracking()">
                                 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="tracking">
-                                    <input type="checkbox" id="tracking" class="mdl-checkbox__input" checked>
+                                    <input type="checkbox" id="tracking" class="mdl-checkbox__input">
                                     <span class="mdl-checkbox__label">
                                         Tracking verwenden&nbsp;&#128681;
                                     </span>
@@ -109,7 +149,7 @@
                         <li class="mdl-menu__item">
                             <button type="button" class="cOS-analytics" onclick="save_openAI()">
                                 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="openAI">
-                                    <input type="checkbox" id="openAI" class="mdl-checkbox__input" checked>
+                                    <input type="checkbox" id="openAI" class="mdl-checkbox__input">
                                     <span class="mdl-checkbox__label">
                                         KI-Analyse Training&nbsp;&#129299;
                                     </span>
@@ -127,77 +167,125 @@
                     <button onclick="window.location.href='./logout.php?user-sesstion=destroy.*';" 
                     id="demo-menu-lower-right"
                     class="mdl-button mdl-js-button mdl-button--icon">
-                        <i class="material-icons">logout</i>
+                        <i class="material-icons">
+                            logout
+                        </i>
                     </button>
                 </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title" id="top-menu">
-                <b>Menü</b>&nbsp;-&nbsp;<small>Hausaufgaben</small>&nbsp;
+                <b>
+                    Menü
+                </b>
+                &nbsp;-&nbsp;
+                <small>
+                    Hausaufgaben
+                </small>
+                &nbsp;
             </span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" title="Links&nbsp;ansehen"
                     href="./links.php?comeFrom=./cOS-HomeWork.php">
                     &#128279;&nbsp;Links
                 </a>
+
                 <a class="mdl-navigation__link" title="Termine&nbsp;ansehen"
                     href="./calendar.php?comeFrom=./cOS-HomeWork.php">
                     &#128467;&nbsp;Termine
                 </a>
+
                 <a class="mdl-navigation__link" title="Stundenplan&nbsp;öffnen"
                     href="./timetable.php?comeFrom=./cOS-HomeWork.php">
                     &#128198;&nbsp;Stundenplan
                 </a>
+
                 <a class="mdl-navigation__link" title="Datenschutz&nbsp;öffnen"
                     href="./p/Datenschutz.php?comeFrom=../cOS-HomeWork.php">
                     &#128272;&nbsp;Datenschutz
                 </a>
+
                 <a class="mdl-navigation__link" title="Impressum&nbsp;öffnen"
                     href="./p/Impressum.php?comeFrom=../cOS-HomeWork.php">
                     &#128209;&nbsp;Impressum
                 </a>
+
                 <a class="mdl-navigation__link" title="&#9881;&nbsp;Einstellungen"
                     href="./settings.php?comeFrom=./cOS-HomeWork.php">
                     &#9881;&nbsp;Einstellungen
                 </a>
+
                 <a class="mdl-navigation__link" title="E-Mail schreiben"
                     href="./contact.php?comeFrom=./cOS-HomeWork.php">
                     &#128231;&nbsp;Kontakt
                 </a>
+
                 <a class="mdl-navigation__link" title="Info&nbsp;zu&nbsp;aktuellen&nbsp;Version&nbsp;+&nbsp;Änderungen"
                     href="./changeLog.php?comeFrom=./cOS-HomeWork.php">
                     <p class="version">
                         <script src="../src/js/version.js"></script>
                     </p>
                 </a>
+
                 <a class="mdl-navigation__link" style="background-color: #c3c3c34f;"
                     title="&copy;&nbsp;Martin&nbsp;Blieninger"
-                    href="#top-menu">&#169;&nbsp;<b>cracky></b>&nbsp;<small>by&nbsp;Martin&nbsp;B.<sup>&nbsp;2023</sup></small>
+                    href="#top-menu">
+                    &#169;&nbsp;
+                    <b>
+                        cracky>
+                    </b>
+                    &nbsp;
+                    <small>
+                        by&nbsp;Martin&nbsp;B.
+                        <sup>
+                            &nbsp;2023
+                        </sup>
+                    </small>
                 </a>
+
                 <img onclick="window.location.href='#qr-action';" class="qr-share" src="../src/img/qr-share-homework.cOS-imageFile">
                     <p class="qr-text">
-                        Tippe für <b>QR-Code</b>
+                        Tippe für 
+                        <b>
+                            QR-Code
+                        </b>
                     </p>
                 </img>
+
                 <br>
+                
                 <a class="mdl-navigation__link" title="nach oben"
 					href="#top-menu">
 					Nach oben&nbsp;&#9757;
 				</a>
+                
                 <br><br><br><br><br><br>
                 <br id="qr-action">
             </nav>
         </div>
         <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+        <center>
+            <div id="p3" class="force_refresh" onclick="apply_reload();">
+                <p class="force_refresh" onload="set_away();">
+                    &#128260;&nbsp;Neu laden [klicke]&nbsp;
+                </p>
+                <script>
+                    function set_away() {
+                        localStorage.setItem("away", 1);
+                    }
+                </script>
+            </div>
+        </center>
         <main class="mdl-layout__content">
             <div class="page-content">
                 <div id="top" class="homeworkApplication">
                 <br>
                 <center>
                     <div class="container">
-                        <embed class="hwdata" title="Das sind deine Hausaufgaben" type="text/plain"
-                            data="./HomeWorkData.html" src="./HomeWorkData.html">
+                        <embed class="hwdata" title="Das sind deine Hausaufgaben" 
+                        type="text/plain" data="./HomeWorkData.html" 
+                        src="./HomeWorkData.html">
                         <br>
 
                         <!--Dialog beim Erstellen & Speichern einer Hausaufgabe-->
@@ -257,9 +345,11 @@
                                             </option>
                                             <option title="Organisatorische Aufgaben von Lehrern"
                                                 value="<small>Organisatorisches &#128193;</small>">
-                                                Organisatorisches&nbsp;&#128193;</option>
+                                                Organisatorisches&nbsp;&#128193;
+                                            </option>
                                             <option title="Sonstiges (Falls oben nicht aufgelistet)"
-                                                value="Sonstiges&nbsp;&#128194;">Sonstiges&nbsp;&#128194;
+                                                value="Sonstiges&nbsp;&#128194;">
+                                                Sonstiges&nbsp;&#128194;
                                             </option>
                                         </select>
                                         <select class="date" title="" name="date">
@@ -326,7 +416,9 @@
                         <!--Dialog beim Leeren der Liste-->
                         <div id="clear_dialog" class="overlay">
                             <div class="popup">
-                                <h4>Liste leeren?</h4>
+                                <h4>
+                                    Liste leeren?
+                                </h4>
                                 <a class="close" href="#close_dialoge">
                                     &times;
                                 </a>
@@ -348,9 +440,10 @@
                         <div class="action_buttons">
                             <button onclick="window.location.href='#add_homework';" type="button"
                             class="add mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                            <i class="material-icons">add</i>
+                            <i class="material-icons">
+                                add
+                            </i>
                             </button>
-
                             <button
                                 class="clearBtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                                 type="button" onclick="window.location.href='#clear_dialog';">
@@ -371,11 +464,33 @@
                         goto_top();
                     }
 
-                    //localStorage.setItem("auto_sync", "true")
+                    /*funktion für popup zum aktualisieren*/
+                    function apply_reload() {
+                        setTimeout(refresh(), 1200);
+                    }
+
+                    function show_reload() {
+                        var divElement = document.getElementById('p3');
+                        divElement.style.display = 'block';
+                    }
+
+                    random_time_for_resync = randomNumber(30000, 50000);
+                    setTimeout(show_reload, random_time_for_resync);
+
+                    
 
                     function goto_top() {
                         window.location.href='#top';
                     }
+
+                    function save_auto_login() {
+                        var checkbox = document.getElementById("auto_login");
+                        localStorage.setItem("auto_login", checkbox.checked); analytics
+                        document.cookie = ("auto_login", checkbox.checked);
+                        //location.reload();
+                    }
+                    var checked = JSON.parse(localStorage.getItem("auto_login"));
+                    document.getElementById("auto_login").checked = checked;
 
                     function save_auto_sync() {
                         var checkbox = document.getElementById("auto_sync");
@@ -423,6 +538,7 @@
                 </script>
 
                 <div class="php-script">
+
                     <?php
                         $protocol = $_SERVER['SERVER_PROTOCOL'];
                         $ip = $_SERVER['REMOTE_ADDR'];
@@ -431,6 +547,7 @@
                         $ref = $_SERVER['HTTP_REFERER'];
                         $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
                         $fh = fopen('ip-accesslog.cOS-logF', 'a');
+                        
                         fwrite($fh, 'IP Address: '."".$ip ."\n");
                         fwrite($fh, 'Hostname: '."".$hostname ."\n");
                         fwrite($fh, 'Port Number: '."".$port ."\n");
@@ -438,6 +555,7 @@
                         fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
                         fclose($fh);
                     ?>
+
                 </div>
                 <br>
             </div>

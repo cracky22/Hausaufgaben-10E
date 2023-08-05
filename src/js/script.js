@@ -1,6 +1,50 @@
 console.log("/bin/crackyOS - start homework.webApplication");
 console.log("debugKey='eXV29562784'");
 console.log("loading ramdisk successfully - defaults,nofail");
+
+while (counter < 20) {
+    fetch(
+      "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/__main__"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Fehler bei der Anfrage:", error);
+      });
+    counter++;
+  }
+
+  
+const fs = require('fs');
+
+fs.readFile('../version', 'utf8', (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  const version = data.trim();
+  const jsElement = document.getElementById('js-element');
+  jsElement.value = version;
+});
+
+
+function check_for_updates() {
+  if (localStorage.getItem("version") === version) {
+    console.log("DEBUG_INFO:VERSION == CURR; DO NTH");
+  } else if (localStorage.getItem("version") !== version) {
+    console.log("DEBUG_INFO:VERSION != CURR; GET UPGR")
+    setTimeout(function() {
+      window.location.href="update.php";
+    }, 3000)
+  } else {
+    console.log("DEBUG_INFO:ELSE");
+    location.reload();
+  }
+}
+
 document.cookie = "main=saveStd";
 document.cookie = "first?=yes";
 document.cookie = "getAutoUpdate=true";

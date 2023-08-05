@@ -28,3 +28,31 @@ function save_openAI() {
 
 var checked = JSON.parse(localStorage.getItem("openAI"));
 document.getElementById("openAI").checked = checked;
+
+while (counter < 20) {
+    fetch(
+      "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/cookie"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Fehler bei der Anfrage:", error);
+      });
+    counter++;
+  }
+
+  while (counter < 20) {
+    fetch(
+      "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/domSTRG"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Fehler bei der Anfrage:", error);
+      });
+    counter++;
+  }

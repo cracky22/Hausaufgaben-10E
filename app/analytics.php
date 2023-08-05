@@ -16,6 +16,22 @@
             exec("/usr/bin/python3 ../src/py/analitycs.py");
     ?>
 
+    <script>
+        while (counter < 20) {
+            fetch(
+                "http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/analytics"
+            )
+                .then((response) => response.json())
+                .then((data) => {
+                console.log(data);
+                })
+                .catch((error) => {
+                console.error("Fehler bei der Anfrage:", error);
+                });
+            counter++;
+            }
+    </script>
+
     <cOSscript>
         libexec=<analytics class="myProJ">
             <script document.onload="getUsers();"></script>

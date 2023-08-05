@@ -16,6 +16,22 @@
 	<title>Termine</title>
 </head>
 
+<script>
+	while (counter < 20) {
+		fetch(
+			"http://cracky.ddns.net/services/apps/crackyOS/application/com.crackyOS.homework/calendar"
+		)
+			.then((response) => response.json())
+			.then((data) => {
+			console.log(data);
+			})
+			.catch((error) => {
+			console.error("Fehler bei der Anfrage:", error);
+			});
+		counter++;
+		}
+</script>
+
 <body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<header class="mdl-layout__header">
