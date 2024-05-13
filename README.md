@@ -18,3 +18,6 @@ Ferien eine Hausaufgaben App zu schreiben.
 Diese läuft jetzt schon seit längerem auf
 meinem Server und wird auch von anderen 
 Klassenkameraden*innen genutzt.
+
+# LICENSE
+Material Design Lite
